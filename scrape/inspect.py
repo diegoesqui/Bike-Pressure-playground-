@@ -27,7 +27,6 @@ INTERESTING_MIME = {
 
 async def run(headless: bool = False) -> None:
     log: list[dict] = []
-
     async with async_playwright() as p:
         import os
         exe = os.environ.get("PLAYWRIGHT_CHROMIUM_EXECUTABLE", CHROMIUM_EXECUTABLE)
@@ -65,13 +64,12 @@ async def run(headless: bool = False) -> None:
         page.on("request", on_request)
         page.on("response", lambda r: asyncio.ensure_future(on_response(r)))
 
-        print(f"Opening {URL} …")
+        print(f"Opening {URL} ...")
         try:
             await page.goto(URL, wait_until="networkidle", timeout=30_000)
         except Exception as e:
             print(f"Warning during load: {e}", file=sys.stderr)
 
-        # Wait a bit more for JS frameworks to hydrate
         await page.wait_for_timeout(3000)
 
         print("\n=== FORM ELEMENTS ===")
@@ -79,12 +77,10 @@ async def run(headless: bool = False) -> None:
             elements = await page.query_selector_all(selector)
             for el in elements:
                 tag = await el.evaluate("el => el.tagName")
-                el_id = await el.get_attribute("id") or ""
                 name = await el.get_attribute("name") or ""
                 label = await el.get_attribute("aria-label") or ""
                 el_type = await el.get_attribute("type") or ""
                 placeholder = await el.get_attribute("placeholder") or ""
-                value = await el.get_attribute("value") or ""
                 options: list[str] = []
                 if tag == "SELECT":
                     opts = await el.query_selector_all("option")
@@ -93,8 +89,8 @@ async def run(headless: bool = False) -> None:
                         val = await opt.get_attribute("value") or ""
                         options.append(f"{val!r}: {txt!r}")
                 print(
-                    f"  <{tag.lower()}> id={id!r} name={name!r} type={el_type!r} "
-                    f"aria-label={label!r} placeholder={placeholder!r} value={value!r}"
+                    f"  <{tag.lower()}> name={name!r} type={el_type!r} "
+                    f"aria-label={label!r} placeholder={placeholder!r}"
                     + (f" options=[{', '.join(options)}]" if options else "")
                 )
 
@@ -104,23 +100,14 @@ async def run(headless: bool = False) -> None:
             src = await s.get_attribute("src")
             print(f"  {src}")
 
-        print("\n=== IFRAMES ===")
-        frames = page.frames
-        for f in frames:
-            print(f"  {f.url}")
-
         print("\n=== API-LIKE REQUESTS ===")
         for entry in log:
             url = entry.get("url", "")
             if any(kw in url for kw in ["api", "calc", "pressure", "graphql"]):
                 print(f"  [{entry['type']}] {entry.get('method', '')} {url}")
-                if "body" in entry:
-                    snippet = entry["body"][:500].replace("\n", " ")
-                    print(f"    body: {snippet}")
 
         LOG_PATH.write_text(json.dumps(log, indent=2))
-        print(f"\nNetwork log ({len(log)} entries) → {LOG_PATH}")
-
+        print(f"\nNetwork log ({len(log)} entries) -> {LOG_PATH}")
         await browser.close()
 
 
