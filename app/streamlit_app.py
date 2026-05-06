@@ -1,10 +1,8 @@
 """
 Silca Tire-Pressure Playground – Streamlit app.
 
-Loads data/silca_sweep.csv and lets you explore how pressure varies with
-rider weight, bike weight, luggage, tire width, and surface type.
-
-All pressures are displayed in bar. Weights in kg.
+Auto-generates a synthetic dataset on first run if data/silca_sweep.csv is missing.
+All pressures in bar. Weights in kg.
 
 Run:
     streamlit run app/streamlit_app.py
@@ -12,6 +10,8 @@ Run:
 
 from __future__ import annotations
 
+import csv
+import itertools
 import pathlib
 
 import numpy as np
@@ -34,11 +34,64 @@ st.set_page_config(
 )
 
 # ---------------------------------------------------------------------------
+# Synthetic data generation (runs only if CSV is missing)
+# ---------------------------------------------------------------------------
+_C = 49.0
+_FRONT_SPLIT = 0.42
+_REAR_SPLIT = 0.58
+_SURFACES: dict[str, float] = {
+    "Smooth Asphalt": 1.00,
+    "Mixed Asphalt": 0.90,
+    "Chip Seal": 0.81,
+    "Light Gravel": 0.72,
+    "Gravel / Dirt": 0.63,
+}
+_TIRE_TYPE_FACTOR = 0.90
+_SPEED_FACTOR = 0.99
+_RIDER_KG = list(range(60, 95, 5))
+_BIKE_KG = [10, 15, 20, 25]
+_LUGGAGE_KG = [0, 2, 4, 6, 8, 10]
+_TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
+
+
+def _compute_psi(total_kg: float, split: float, width_mm: int, sfactor: float) -> float:
+    raw = _C * (total_kg * split) / width_mm * sfactor * _TIRE_TYPE_FACTOR * _SPEED_FACTOR
+    return round(max(12.0, min(130.0, raw)), 1)
+
+
+def _generate_synthetic_csv(path: pathlib.Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = [
+        "rider_kg", "bike_kg", "luggage_kg", "total_kg",
+        "tire_width_mm", "surface", "wheel", "bike_type", "tire_type", "speed_kmh",
+        "front_psi", "rear_psi", "data_source",
+    ]
+    with open(path, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for rider, bike, luggage, width, (surf, sfac) in itertools.product(
+            _RIDER_KG, _BIKE_KG, _LUGGAGE_KG, _TIRE_WIDTHS_MM, _SURFACES.items()
+        ):
+            total = rider + bike + luggage
+            w.writerow({
+                "rider_kg": rider, "bike_kg": bike, "luggage_kg": luggage,
+                "total_kg": total, "tire_width_mm": width, "surface": surf,
+                "wheel": "700c", "bike_type": "Road", "tire_type": "Tubeless",
+                "speed_kmh": 30.0,
+                "front_psi": _compute_psi(total, _FRONT_SPLIT, width, sfac),
+                "rear_psi": _compute_psi(total, _REAR_SPLIT, width, sfac),
+                "data_source": "synthetic",
+            })
+
+
+# ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
 
 @st.cache_data
 def load_data(path: pathlib.Path) -> pd.DataFrame:
+    if not path.exists():
+        _generate_synthetic_csv(path)
     df = pd.read_csv(path)
     df = df.dropna(subset=["front_psi", "rear_psi"])
     df["total_kg"] = df["rider_kg"] + df["bike_kg"] + df["luggage_kg"]
@@ -48,15 +101,9 @@ def load_data(path: pathlib.Path) -> pd.DataFrame:
 
 
 def check_data() -> pd.DataFrame | None:
-    if not DATA_PATH.exists():
-        st.error(
-            f"**Data file not found:** `{DATA_PATH}`\n\n"
-            "Run the sweep first:\n```\npython -m scrape.sweep\n```"
-        )
-        return None
     df = load_data(DATA_PATH)
     if df.empty:
-        st.error("CSV is empty or has no valid pressure readings. Re-run the sweep.")
+        st.error("CSV vacío o sin lecturas válidas.")
         return None
     return df
 
@@ -90,7 +137,7 @@ def interpolate_pressure(
 def main() -> None:
     st.title("🚲 Silca Tire-Pressure Playground")
     st.caption(
-        "Interactive explorer based on the "
+        "Explorador interactivo basado en el "
         "[Silca Pro Tire Pressure Calculator](https://silca.cc/pages/pro-tire-pressure-calculator)"
     )
 
@@ -100,16 +147,17 @@ def main() -> None:
 
     if "data_source" in df.columns and (df["data_source"] == "synthetic").any():
         st.warning(
-            "**Using synthetic data** (physics-based approximation of the Silca formula). "
-            "Run `python -m scrape.sweep` from your machine to replace with real Silca outputs.",
+            "**Datos sintéticos** (aproximación física de la fórmula Silca). "
+            "Ejecuta `python -m scrape.sweep` desde tu máquina para obtener datos reales.",
             icon="⚠️",
         )
 
     surfaces = sorted(df["surface"].unique().tolist())
     widths = sorted(df["tire_width_mm"].unique().tolist())
+    palette = px.colors.qualitative.Set2
 
     # -------------------------------------------------------------------
-    # Sidebar – controls
+    # Sidebar
     # -------------------------------------------------------------------
     with st.sidebar:
         st.header("Parámetros")
@@ -129,12 +177,12 @@ def main() -> None:
         )
         surface = st.radio("Superficie", options=surfaces, index=0)
 
-    # Current-point pressures (interpolated)
+    # Current-point pressures
     df_surf = df[df["surface"] == surface]
     cur_front = interpolate_pressure(df_surf, total_kg, tire_mm, "front_bar")
     cur_rear = interpolate_pressure(df_surf, total_kg, tire_mm, "rear_bar")
 
-    # Quick-look metrics at the top
+    # Top metrics
     m1, m2, m3, m4 = st.columns(4)
     m1.metric("Presión delantera", f"{cur_front} bar" if cur_front else "—")
     m2.metric("Presión trasera", f"{cur_rear} bar" if cur_rear else "—")
@@ -142,8 +190,6 @@ def main() -> None:
     m4.metric("Ancho neumático", f"{tire_mm} mm")
 
     st.divider()
-
-    palette = px.colors.qualitative.Set2
 
     tab1, tab2, tab3, tab4 = st.tabs([
         "📈 Presión vs Peso",
@@ -153,7 +199,7 @@ def main() -> None:
     ])
 
     # -------------------------------------------------------------------
-    # Tab 1: Pressure vs total system weight
+    # Tab 1: Pressure vs weight
     # -------------------------------------------------------------------
     with tab1:
         st.subheader("Presión en función del peso total del sistema")
@@ -161,7 +207,7 @@ def main() -> None:
 
         df_w = df[df["tire_width_mm"] == tire_mm].copy()
         if df_w.empty:
-            st.info("Sin datos para este ancho. Ajusta el slider.")
+            st.info("Sin datos para este ancho.")
         else:
             fig = go.Figure()
             for i, surf in enumerate(surfaces):
@@ -172,33 +218,27 @@ def main() -> None:
                 fig.add_trace(go.Scatter(
                     x=sub["total_kg"], y=sub["front_bar"],
                     mode="lines+markers", name=f"{surf} — Delantera",
-                    line={"color": color, "dash": "solid"},
-                    legendgroup=surf,
+                    line={"color": color, "dash": "solid"}, legendgroup=surf,
                 ))
                 fig.add_trace(go.Scatter(
                     x=sub["total_kg"], y=sub["rear_bar"],
                     mode="lines+markers", name=f"{surf} — Trasera",
-                    line={"color": color, "dash": "dot"},
-                    legendgroup=surf,
+                    line={"color": color, "dash": "dot"}, legendgroup=surf,
                 ))
-
             if cur_front is not None:
                 fig.add_vline(x=total_kg, line_dash="dash", line_color="red",
                               annotation_text=f"{total_kg} kg", annotation_position="top right")
                 fig.add_trace(go.Scatter(
-                    x=[total_kg], y=[cur_front],
-                    mode="markers", name="Tu punto (Delantera)",
+                    x=[total_kg], y=[cur_front], mode="markers",
+                    name="Tu punto (Del.)",
                     marker={"size": 14, "color": "red", "symbol": "star"},
-                    showlegend=True,
                 ))
             if cur_rear is not None:
                 fig.add_trace(go.Scatter(
-                    x=[total_kg], y=[cur_rear],
-                    mode="markers", name="Tu punto (Trasera)",
+                    x=[total_kg], y=[cur_rear], mode="markers",
+                    name="Tu punto (Tras.)",
                     marker={"size": 14, "color": "darkred", "symbol": "star-open"},
-                    showlegend=True,
                 ))
-
             fig.update_layout(
                 xaxis_title="Peso total del sistema (kg)",
                 yaxis_title="Presión (bar)",
@@ -216,14 +256,13 @@ def main() -> None:
 
         available_totals = sorted(df["total_kg"].unique())
         nearest_total = min(available_totals, key=lambda x: abs(x - total_kg))
-
         df_tw = df[df["total_kg"] == nearest_total].copy()
+
         if df_tw.empty:
-            st.info("Sin datos para este peso total. Ajusta los sliders.")
+            st.info("Sin datos para este peso total.")
         else:
             if nearest_total != total_kg:
-                st.caption(f"ℹ Peso de grid más cercano utilizado: {nearest_total} kg (seleccionado: {total_kg} kg)")
-
+                st.caption(f"ℹ Peso de grid más cercano: {nearest_total} kg (seleccionado: {total_kg} kg)")
             fig2 = go.Figure()
             for i, surf in enumerate(surfaces):
                 sub = df_tw[df_tw["surface"] == surf].sort_values("tire_width_mm")
@@ -240,22 +279,20 @@ def main() -> None:
                     mode="lines+markers", name=f"{surf} — Trasera",
                     line={"color": color, "dash": "dot"}, legendgroup=surf,
                 ))
-
             fig2.add_vline(x=tire_mm, line_dash="dash", line_color="red",
                            annotation_text=f"{tire_mm} mm", annotation_position="top right")
             if cur_front is not None:
                 fig2.add_trace(go.Scatter(
-                    x=[tire_mm], y=[cur_front],
-                    mode="markers", name="Tu punto (Delantera)",
+                    x=[tire_mm], y=[cur_front], mode="markers",
+                    name="Tu punto (Del.)",
                     marker={"size": 14, "color": "red", "symbol": "star"},
                 ))
             if cur_rear is not None:
                 fig2.add_trace(go.Scatter(
-                    x=[tire_mm], y=[cur_rear],
-                    mode="markers", name="Tu punto (Trasera)",
+                    x=[tire_mm], y=[cur_rear], mode="markers",
+                    name="Tu punto (Tras.)",
                     marker={"size": 14, "color": "darkred", "symbol": "star-open"},
                 ))
-
             fig2.update_layout(
                 xaxis_title="Ancho del neumático (mm)",
                 yaxis_title="Presión (bar)",
@@ -265,13 +302,11 @@ def main() -> None:
             st.plotly_chart(fig2, use_container_width=True)
 
     # -------------------------------------------------------------------
-    # Tab 3: Surface comparison (bar chart)
+    # Tab 3: Surface comparison
     # -------------------------------------------------------------------
     with tab3:
         st.subheader("Comparativa de superficies en tu configuración actual")
-        st.caption(
-            f"Total: {total_kg} kg, neumático: {tire_mm} mm — delantera vs trasera por superficie"
-        )
+        st.caption(f"Total: {total_kg} kg, neumático: {tire_mm} mm")
 
         rows = []
         for surf in surfaces:
@@ -291,22 +326,18 @@ def main() -> None:
                 color_discrete_map={"Delantera": "#1f77b4", "Trasera": "#ff7f0e"},
                 height=400,
             )
-            shapes = [
-                dict(
-                    type="rect", xref="x", yref="paper",
-                    x0=surfaces.index(surface) - 0.45,
-                    x1=surfaces.index(surface) + 0.45,
-                    y0=0, y1=1,
-                    fillcolor="yellow", opacity=0.15, line_width=0,
-                )
-            ]
+            shapes = [dict(
+                type="rect", xref="x", yref="paper",
+                x0=surfaces.index(surface) - 0.45, x1=surfaces.index(surface) + 0.45,
+                y0=0, y1=1, fillcolor="yellow", opacity=0.15, line_width=0,
+            )]
             fig3.update_layout(shapes=shapes)
             st.plotly_chart(fig3, use_container_width=True)
         else:
             st.info("Sin datos interpolados para la configuración actual.")
 
     # -------------------------------------------------------------------
-    # Tab 4: Heatmap – pressure vs (weight, width)
+    # Tab 4: Heatmap
     # -------------------------------------------------------------------
     with tab4:
         st.subheader(f"Mapa de calor — superficie: {surface}")
@@ -330,7 +361,6 @@ def main() -> None:
                 colorbar={"title": "Presión (bar)"},
                 hoverongaps=False,
             ))
-
             nearest_w = min(piv_wide.index, key=lambda x: abs(x - total_kg))
             nearest_mm = min(piv_wide.columns, key=lambda x: abs(x - tire_mm))
             fig4.add_trace(go.Scatter(
@@ -338,10 +368,8 @@ def main() -> None:
                 mode="markers",
                 marker={"size": 18, "color": "white", "symbol": "cross",
                         "line": {"width": 3, "color": "black"}},
-                name="Tu configuración",
-                showlegend=True,
+                name="Tu configuración", showlegend=True,
             ))
-
             fig4.update_layout(
                 xaxis_title="Ancho del neumático (mm)",
                 yaxis_title="Peso total del sistema (kg)",
