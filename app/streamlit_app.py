@@ -40,11 +40,11 @@ _C = 49.0
 _FRONT_SPLIT = 0.42
 _REAR_SPLIT = 0.58
 _SURFACES: dict[str, float] = {
-    "Smooth Asphalt": 1.00,
-    "Mixed Asphalt": 0.90,
-    "Chip Seal": 0.81,
-    "Light Gravel": 0.72,
-    "Gravel / Dirt": 0.63,
+    "Asfalto liso": 1.00,
+    "Asfalto mixto": 0.90,
+    "Gravilla compacta": 0.81,
+    "Grava ligera": 0.72,
+    "Grava / tierra": 0.63,
 }
 _TIRE_TYPE_FACTOR = 0.90
 _SPEED_FACTOR = 0.99
@@ -135,7 +135,7 @@ def interpolate_pressure(
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    st.title("🚲 Silca Tire-Pressure Playground")
+    st.title("🚲 Calculadora de presión de neumáticos")
     st.caption(
         "Explorador interactivo basado en el "
         "[Silca Pro Tire Pressure Calculator](https://silca.cc/pages/pro-tire-pressure-calculator)"
@@ -148,7 +148,7 @@ def main() -> None:
     if "data_source" in df.columns and (df["data_source"] == "synthetic").any():
         st.warning(
             "**Datos sintéticos** (aproximación física de la fórmula Silca). "
-            "Ejecuta `python -m scrape.sweep` desde tu máquina para obtener datos reales.",
+            "Ejecuta `python3.9 -m scrape.sweep` desde tu máquina para obtener datos reales.",
             icon="⚠️",
         )
 
