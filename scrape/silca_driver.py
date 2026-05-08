@@ -300,29 +300,34 @@ class SilcaCalculator:
                   f"class={c['cls']!r}")
             print(f"           {c['outerHTML']}")
 
-        # Also dump any element whose text contains a unit keyword
-        unit_hits = self.page.evaluate("""
+        # Dump innerHTML of the result section (div.row containing Rear/Front Tire)
+        result_html = self.page.evaluate("""
             () => {
-                const kw = ['psi', 'bar', 'kpa', 'front', 'rear', 'result',
-                            'pressure', 'delantera', 'trasera', 'presion', 'presión'];
-                const hits = [];
-                document.querySelectorAll('*').forEach(el => {
-                    const t = (el.textContent || '').trim().toLowerCase();
-                    if (kw.some(k => t.includes(k)) && t.length < 200) {
-                        const rect = el.getBoundingClientRect();
-                        if (rect.width > 0 && rect.height > 0)
-                            hits.push({ tag: el.tagName, id: el.id || '',
-                                        cls: el.className || '',
-                                        text: el.textContent.trim().slice(0, 120) });
+                for (const el of document.querySelectorAll('div.row, section, div')) {
+                    if (el.textContent.includes('Rear Tire') &&
+                        el.textContent.includes('Front Tire') &&
+                        el.textContent.length < 2000) {
+                        return el.innerHTML;
                     }
-                });
-                return hits;
+                }
+                return null;
             }
         """)
-        print(f"\nElements containing pressure/unit keywords ({len(unit_hits)} total):")
-        for h in unit_hits[:30]:
-            print(f"  <{h['tag']}> id={h['id']!r} class={h['cls']!r}")
-            print(f"    text: {h['text']!r}")
+        print(f"\nResult section innerHTML:\n{result_html}\n")
+
+        # List all buttons
+        buttons = self.page.evaluate("""
+            () => Array.from(document.querySelectorAll(
+                    'button, input[type=submit], input[type=button], input[type=image]'))
+                .map(b => ({tag: b.tagName, type: b.type || '', id: b.id || '',
+                            cls: b.className || '',
+                            text: b.textContent.trim().slice(0, 80),
+                            value: b.value || ''}))
+        """)
+        print(f"Buttons on page ({len(buttons)}):")
+        for b in buttons:
+            print(f"  <{b['tag']} type={b['type']!r}> id={b['id']!r} "
+                  f"cls={b['cls']!r} text={b['text']!r} value={b['value']!r}")
 
 
 if __name__ == "__main__":
