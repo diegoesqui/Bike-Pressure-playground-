@@ -129,8 +129,12 @@ class SilcaCalculator:
     ) -> None:
         p = self.page
 
-        # Select kg units
-        p.locator(WEIGHT_UNIT_KG).check()
+        # Scroll past the sticky nav so it doesn't intercept clicks
+        p.evaluate("window.scrollBy(0, 300)")
+        p.wait_for_timeout(300)
+
+        # Select kg units — click the <label> because it covers the radio input
+        p.locator("label[for='weight-unit-kg']").click()
         p.wait_for_timeout(200)
 
         # Total weight
