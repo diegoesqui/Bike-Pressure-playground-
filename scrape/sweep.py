@@ -27,11 +27,25 @@ FIELDNAMES = [
     "front_psi", "rear_psi", "front_bar", "rear_bar", "data_source",
 ]
 
-# Grid definition — Silca only takes total_kg, so collapse rider/bike/luggage
-# into a single axis.  Range covers light recreational (70 kg) → loaded e-bike
-# (125 kg) in 5 kg steps.  12 weights × 12 widths × 10 surfaces = 1 440 rows.
+# Grid definition — city-bike focused:
+#   - total_kg 70-125 in 5 kg steps (12 values)
+#   - widths 25-50mm — sub-25 mm not relevant for city bikes (10 values)
+#   - surfaces: road/gravel only — track surfaces excluded (8 values)
+# 12 × 10 × 8 = 960 rows ≈ 20 min headless
 TOTAL_KG       = list(range(70, 130, 5))        # 70 75 … 125
-TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
+TIRE_WIDTHS_MM = [25, 28, 30, 32, 35, 38, 40, 42, 45, 50]
+
+# Silca surface keys to include (excludes velodrome surfaces)
+SURFACE_KEYS = [
+    "new-pavement",
+    "worn-pavement",
+    "poor-pavement",
+    "cat1-gravel",
+    "cobblestone",
+    "cat2-gravel",
+    "cat3-gravel",
+    "cat4-gravel",
+]
 
 # Diameter key → wheel label
 DIAMETER_TO_WHEEL = {
@@ -41,7 +55,7 @@ DIAMETER_TO_WHEEL = {
     "571": "650C",
 }
 
-THROTTLE_S = 0.25
+THROTTLE_S = 0.0  # no extra sleep — we already wait for #pressure-box1:not(.hide)
 
 
 def row_key(row: dict) -> tuple:
@@ -94,7 +108,7 @@ def main() -> None:
         writer.writeheader()
         outfile.flush()
 
-    surface_keys = list(SILCA_SURFACES.keys())
+    surface_keys = SURFACE_KEYS
     print(f"Surfaces: {surface_keys}")
 
     grid = list(itertools.product(TOTAL_KG, TIRE_WIDTHS_MM, surface_keys))

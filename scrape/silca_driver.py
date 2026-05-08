@@ -146,17 +146,17 @@ class SilcaCalculator:
 
         # Scroll past the sticky nav so it doesn't intercept clicks
         p.evaluate("window.scrollBy(0, 300)")
-        p.wait_for_timeout(300)
+        p.wait_for_timeout(200)
 
         # Select kg units by clicking the label (it covers the radio input)
         p.locator("label[for='weight-unit-kg']").click()
-        p.wait_for_timeout(200)
+        p.wait_for_timeout(100)
 
         # Total weight
         p.locator(WEIGHT_INPUT).click()
         p.locator(WEIGHT_INPUT).fill(str(round(total_kg, 1)))
         p.keyboard.press("Tab")
-        p.wait_for_timeout(200)
+        p.wait_for_timeout(100)
 
         # Dropdowns — select by option value
         for sel, val in [
@@ -168,14 +168,14 @@ class SilcaCalculator:
             (DIST_SELECT,      dist_key),
         ]:
             p.locator(sel).select_option(value=val)
-            p.wait_for_timeout(150)
+            p.wait_for_timeout(50)
 
         # Click "Get calculation" to trigger the JS
         p.locator("button#submit").click()
 
         # Wait for the result box to become visible (hide class removed)
         p.wait_for_selector(f"{RESULT_BOX_ID}:not(.hide)", timeout=10_000)
-        p.wait_for_timeout(300)
+        p.wait_for_timeout(100)
 
     # ------------------------------------------------------------------
     # Output reading

@@ -46,9 +46,13 @@ SURFACES: dict[str, float] = {
 TIRE_TYPE_FACTOR = 0.90
 SPEED_FACTOR = 0.99
 
-# Grid mirrors sweep.py — total_kg only (Silca takes total weight, not breakdown)
+# Grid mirrors sweep.py — city-bike focused
 TOTAL_KG       = list(range(70, 130, 5))        # 70 75 … 125 (12 values)
-TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
+TIRE_WIDTHS_MM = [25, 28, 30, 32, 35, 38, 40, 42, 45, 50]  # 25-50mm only
+
+# Exclude velodrome surfaces (not relevant for city bikes)
+SURFACES = {k: v for k, v in SURFACES.items()
+            if k not in ("Pista (madera interior)", "Pista (hormigón exterior)")}
 
 WHEEL = "700c"
 BIKE_TYPE = "Road"

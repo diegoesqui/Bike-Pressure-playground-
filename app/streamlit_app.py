@@ -39,10 +39,8 @@ st.set_page_config(
 _C = 49.0
 _FRONT_SPLIT = 0.42
 _REAR_SPLIT = 0.58
-# Surface names match Silca's Spanish labels; factors approximate Silca's pressure adjustments
+# Surface names match Silca's Spanish labels (track surfaces excluded — city bike)
 _SURFACES: dict[str, float] = {
-    "Pista (madera interior)":          1.10,
-    "Pista (hormigón exterior)":        1.05,
     "Asfalto nuevo":                    1.00,
     "Asfalto desgastado / fisuras":     0.93,
     "Asfalto deteriorado / gravilla":   0.86,
@@ -54,8 +52,8 @@ _SURFACES: dict[str, float] = {
 }
 _TIRE_TYPE_FACTOR = 0.90
 _SPEED_FACTOR = 0.99
-_TOTAL_KG      = list(range(70, 130, 5))        # mirrors sweep.py grid
-_TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
+_TOTAL_KG       = list(range(70, 130, 5))        # mirrors sweep.py grid
+_TIRE_WIDTHS_MM = [25, 28, 30, 32, 35, 38, 40, 42, 45, 50]  # city-bike range
 
 
 def _compute_psi(total_kg: float, split: float, width_mm: int, sfactor: float) -> float:
