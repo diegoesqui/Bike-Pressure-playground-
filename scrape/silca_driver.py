@@ -136,8 +136,8 @@ class SilcaCalculator:
         surface_key: str,
         tire_width_mm: int,
         diameter_key: str = "622",
-        tire_type_key: str = "mid-range-tubeless-latex",
-        speed_key: str = "17.5",
+        tire_type_key: str = "mid-range-butyl-tube",
+        speed_key: str = "14",
         dist_key: str = "road",
     ) -> None:
         p = self.page
@@ -205,8 +205,8 @@ class SilcaCalculator:
         surface_key: str,
         tire_width_mm: int,
         diameter_key: str = "622",
-        tire_type_key: str = "mid-range-tubeless-latex",
-        speed_key: str = "17.5",
+        tire_type_key: str = "mid-range-butyl-tube",
+        speed_key: str = "14",
         dist_key: str = "road",
     ) -> dict[str, Any]:
         self._fill_form(total_kg, surface_key, tire_width_mm,
@@ -224,9 +224,25 @@ class SilcaCalculator:
             **vals,
         }
 
+    def dump_select_options(self) -> None:
+        """Print all <option> value+text pairs for every select on the page."""
+        selects = self.page.evaluate("""
+            () => Array.from(document.querySelectorAll('select')).map(s => ({
+                name: s.name || s.id || '?',
+                options: Array.from(s.options).map(o => ({value: o.value, text: o.text.trim()}))
+            }))
+        """)
+        for s in selects:
+            print(f"\nselect[name='{s['name']}']:")
+            for o in s["options"]:
+                print(f"  value={o['value']!r:40s}  label={o['text']!r}")
+
     def debug_output(self) -> None:
-        """Fill a test case and print raw result HTML + output values."""
-        print("Filling test case: 90 kg, new-pavement, 35mm, 700C…")
+        """Dump all select options, then fill a test case and print results."""
+        print("=== Select options (before filling) ===")
+        self.dump_select_options()
+
+        print("\n=== Filling test case: 90 kg, new-pavement, 35mm, 700C ===")
         self._fill_form(90, "new-pavement", 35)
         vals = self._read_values()
         print(f"\nResult: {vals}")
