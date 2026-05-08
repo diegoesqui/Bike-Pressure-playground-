@@ -30,11 +30,11 @@ REAR_SPLIT = 0.58
 
 # Surface names and their pressure multipliers (lower = rougher = less pressure needed)
 SURFACES: dict[str, float] = {
-    "Smooth Asphalt": 1.00,
-    "Mixed Asphalt": 0.90,
-    "Chip Seal": 0.81,
-    "Light Gravel": 0.72,
-    "Gravel / Dirt": 0.63,
+    "Asfalto liso": 1.00,
+    "Asfalto mixto": 0.90,
+    "Gravilla compacta": 0.81,
+    "Grava ligera": 0.72,
+    "Grava / tierra": 0.63,
 }
 
 # Tire type multiplier (default sweep uses tubeless)
