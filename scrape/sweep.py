@@ -83,11 +83,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true", default=True)
     parser.add_argument("--headed", dest="headless", action="store_false")
-    parser.add_argument("--speed", type=float, default=17.5,
-                        help="Speed key for Silca (14, 17.5, 19.5, 21.5)")
+    parser.add_argument("--speed", type=float, default=14,
+                        help="Speed key for Silca (14=Recreational, 17.5, 19.5, 21.5, 24)")
     parser.add_argument("--diameter", default="622",
                         help="Tire diameter key: 622=700C, 584=650B, 559=26in, 571=650C")
-    parser.add_argument("--tire-type", default="mid-range-tubeless-latex",
+    parser.add_argument("--tire-type", default="mid-range-butyl",
                         help="Silca tire-type option value")
     parser.add_argument("--dist", default="road",
                         help="Weight distribution key: road, gravel, mountain, tr-tt-track")
