@@ -48,12 +48,14 @@ SURFACES: dict[str, str] = {
     "cat4-gravel":        "Grava cat. 4 (gruesa)",
 }
 
-# Speed option values (km/h label → Silca select value)
+# Speed option values (Silca select value → Spanish label)
 SPEEDS: dict[str, str] = {
     "14":   "Recreativo",
+    "15.5": "Monopista rápido",
     "17.5": "Grupo moderado",
     "19.5": "Grupo rápido",
-    "21.5": "Competición",
+    "21.5": "Competición cat. 1-3",
+    "24":   "Pro Tour",
 }
 
 # Weight distribution option values
@@ -136,7 +138,7 @@ class SilcaCalculator:
         surface_key: str,
         tire_width_mm: int,
         diameter_key: str = "622",
-        tire_type_key: str = "mid-range-butyl-tube",
+        tire_type_key: str = "mid-range-butyl",
         speed_key: str = "14",
         dist_key: str = "road",
     ) -> None:
@@ -205,7 +207,7 @@ class SilcaCalculator:
         surface_key: str,
         tire_width_mm: int,
         diameter_key: str = "622",
-        tire_type_key: str = "mid-range-butyl-tube",
+        tire_type_key: str = "mid-range-butyl",
         speed_key: str = "14",
         dist_key: str = "road",
     ) -> dict[str, Any]:
