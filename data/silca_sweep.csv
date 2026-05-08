@@ -1,769 +1,769 @@
 rider_kg,bike_kg,luggage_kg,total_kg,tire_width_mm,surface,wheel,bike_type,tire_type,speed_kmh,front_psi,rear_psi,front_bar,rear_bar,data_source
-70,0,0,70,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,68.5,70.0,4.7,4.85,silca
-70,0,0,70,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,64.5,66.5,4.45,4.55,silca
-70,0,0,70,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,59.5,61.0,4.1,4.2,silca
-70,0,0,70,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,62.0,63.5,4.25,4.4,silca
-70,0,0,70,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,52.5,54.0,3.65,3.75,silca
-70,0,0,70,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.5,3.85,3.95,silca
-70,0,0,70,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,49.5,51.0,3.4,3.5,silca
-70,0,0,70,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-70,0,0,70,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,61.5,63.0,4.25,4.35,silca
-70,0,0,70,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,58.5,60.0,4.0,4.15,silca
-70,0,0,70,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,53.5,55.0,3.7,3.8,silca
-70,0,0,70,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,56.0,57.5,3.85,3.95,silca
-70,0,0,70,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,47.5,49.0,3.3,3.35,silca
-70,0,0,70,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,50.5,52.0,3.5,3.6,silca
-70,0,0,70,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.15,silca
-70,0,0,70,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-70,0,0,70,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,53.5,55.0,3.7,3.8,silca
-70,0,0,70,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,50.5,52.0,3.5,3.6,silca
-70,0,0,70,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,46.5,47.5,3.2,3.3,silca
-70,0,0,70,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,48.5,49.5,3.35,3.4,silca
-70,0,0,70,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.5,2.85,2.9,silca
-70,0,0,70,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.05,3.1,silca
-70,0,0,70,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-70,0,0,70,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-70,0,0,70,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,47.0,48.0,3.25,3.3,silca
-70,0,0,70,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-70,0,0,70,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-70,0,0,70,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.95,3.0,silca
-70,0,0,70,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-70,0,0,70,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-70,0,0,70,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-70,0,0,70,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-70,0,0,70,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-70,0,0,70,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-70,0,0,70,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-70,0,0,70,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-70,0,0,70,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.3,2.35,silca
-70,0,0,70,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-70,0,0,70,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.0,2.15,2.2,silca
-70,0,0,70,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,28.5,29.5,1.95,2.0,silca
-70,0,0,70,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-70,0,0,70,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-70,0,0,70,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-70,0,0,70,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-70,0,0,70,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-70,0,0,70,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-70,0,0,70,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,29.0,29.5,2.0,2.05,silca
-70,0,0,70,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,26.5,27.0,1.8,1.85,silca
-70,0,0,70,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-70,0,0,70,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.35,silca
-70,0,0,70,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-70,0,0,70,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-70,0,0,70,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.0,1.9,1.95,silca
-70,0,0,70,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,29.0,30.0,2.0,2.05,silca
-70,0,0,70,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.5,1.8,1.8,silca
-70,0,0,70,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,23.5,24.0,1.6,1.65,silca
-70,0,0,70,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.0,2.05,silca
-70,0,0,70,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.5,1.9,1.95,silca
-70,0,0,70,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.0,1.75,1.8,silca
-70,0,0,70,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,26.5,27.0,1.85,1.85,silca
-70,0,0,70,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,22.5,23.0,1.55,1.6,silca
-70,0,0,70,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,24.0,24.5,1.65,1.7,silca
-70,0,0,70,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,21.5,22.0,1.45,1.5,silca
-70,0,0,70,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,19.5,20.0,1.35,1.35,silca
-75,0,0,75,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,69.0,70.5,4.75,4.9,silca
-75,0,0,75,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,65.5,67.0,4.5,4.6,silca
-75,0,0,75,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,60.0,61.5,4.15,4.25,silca
-75,0,0,75,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,62.5,64.0,4.3,4.4,silca
-75,0,0,75,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,53.5,54.5,3.7,3.75,silca
-75,0,0,75,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-75,0,0,75,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,50.5,51.5,3.45,3.55,silca
-75,0,0,75,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,46.0,47.0,3.15,3.25,silca
-75,0,0,75,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,62.0,64.0,4.3,4.4,silca
-75,0,0,75,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,59.0,60.5,4.05,4.15,silca
-75,0,0,75,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.5,3.75,3.8,silca
-75,0,0,75,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-75,0,0,75,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.5,3.3,3.4,silca
-75,0,0,75,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.5,3.55,3.6,silca
-75,0,0,75,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-75,0,0,75,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.95,silca
-75,0,0,75,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.5,3.7,3.8,silca
-75,0,0,75,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.5,3.5,3.6,silca
-75,0,0,75,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,47.0,48.0,3.25,3.3,silca
-75,0,0,75,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,49.0,50.0,3.35,3.45,silca
-75,0,0,75,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,41.5,43.0,2.9,2.95,silca
-75,0,0,75,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-75,0,0,75,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-75,0,0,75,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-75,0,0,75,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,47.5,48.5,3.25,3.35,silca
-75,0,0,75,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.15,silca
-75,0,0,75,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.85,2.9,silca
-75,0,0,75,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-75,0,0,75,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.6,silca
-75,0,0,75,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-75,0,0,75,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-75,0,0,75,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,31.5,32.5,2.2,2.25,silca
-75,0,0,75,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,43.5,44.5,3.0,3.1,silca
-75,0,0,75,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.85,2.9,silca
-75,0,0,75,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,38.0,38.5,2.6,2.65,silca
-75,0,0,75,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-75,0,0,75,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.4,silca
-75,0,0,75,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,36.0,36.5,2.45,2.55,silca
-75,0,0,75,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.5,2.2,2.25,silca
-75,0,0,75,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,29.0,30.0,2.0,2.05,silca
-75,0,0,75,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.85,silca
-75,0,0,75,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.7,silca
-75,0,0,75,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.45,silca
-75,0,0,75,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.55,silca
-75,0,0,75,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-75,0,0,75,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.3,2.35,silca
-75,0,0,75,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.0,2.05,silca
-75,0,0,75,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-75,0,0,75,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.55,silca
-75,0,0,75,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,34.0,34.5,2.35,2.4,silca
-75,0,0,75,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-75,0,0,75,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,32.5,33.0,2.25,2.3,silca
-75,0,0,75,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.5,1.9,1.95,silca
-75,0,0,75,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.05,2.1,silca
-75,0,0,75,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,26.0,26.5,1.8,1.85,silca
-75,0,0,75,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,24.0,24.5,1.65,1.7,silca
-75,0,0,75,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.5,2.05,2.1,silca
-75,0,0,75,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,28.0,28.5,1.95,2.0,silca
-75,0,0,75,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.5,1.75,1.8,silca
-75,0,0,75,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-75,0,0,75,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,23.0,23.5,1.55,1.6,silca
-75,0,0,75,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,24.5,25.0,1.7,1.7,silca
-75,0,0,75,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,21.5,22.0,1.5,1.5,silca
-75,0,0,75,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,19.5,20.0,1.35,1.4,silca
-80,0,0,80,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,69.5,71.5,4.8,4.9,silca
-80,0,0,80,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,66.0,67.5,4.55,4.65,silca
-80,0,0,80,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,60.5,62.0,4.15,4.3,silca
-80,0,0,80,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,63.0,65.0,4.35,4.45,silca
-80,0,0,80,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.5,3.7,3.8,silca
-80,0,0,80,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,57.5,59.0,3.95,4.05,silca
-80,0,0,80,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.0,3.5,3.6,silca
-80,0,0,80,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,46.5,48.0,3.2,3.3,silca
-80,0,0,80,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,63.0,64.5,4.35,4.45,silca
-80,0,0,80,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,59.5,61.0,4.1,4.2,silca
-80,0,0,80,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,54.5,56.0,3.75,3.85,silca
-80,0,0,80,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,57.0,58.5,3.95,4.05,silca
-80,0,0,80,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,48.5,50.0,3.35,3.45,silca
-80,0,0,80,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,52.0,53.0,3.55,3.65,silca
-80,0,0,80,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,46.0,47.0,3.15,3.25,silca
-80,0,0,80,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,3.0,silca
-80,0,0,80,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,54.5,56.0,3.75,3.85,silca
-80,0,0,80,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,51.5,53.0,3.55,3.65,silca
-80,0,0,80,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,47.5,48.5,3.25,3.35,silca
-80,0,0,80,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,49.5,50.5,3.4,3.5,silca
-80,0,0,80,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.5,2.9,3.0,silca
-80,0,0,80,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.15,silca
-80,0,0,80,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-80,0,0,80,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.6,silca
-80,0,0,80,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,47.5,49.0,3.3,3.35,silca
-80,0,0,80,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.5,3.1,3.2,silca
-80,0,0,80,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.95,silca
-80,0,0,80,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,43.5,44.5,3.0,3.05,silca
-80,0,0,80,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-80,0,0,80,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-80,0,0,80,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.45,silca
-80,0,0,80,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-80,0,0,80,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.05,3.1,silca
-80,0,0,80,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.95,silca
-80,0,0,80,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.65,2.7,silca
-80,0,0,80,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-80,0,0,80,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-80,0,0,80,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-80,0,0,80,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-80,0,0,80,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.05,2.1,silca
-80,0,0,80,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-80,0,0,80,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-80,0,0,80,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.45,2.5,silca
-80,0,0,80,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,37.0,37.5,2.55,2.6,silca
-80,0,0,80,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.0,2.15,2.2,silca
-80,0,0,80,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.35,silca
-80,0,0,80,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.5,2.05,2.1,silca
-80,0,0,80,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,27.0,28.0,1.85,1.9,silca
-80,0,0,80,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-80,0,0,80,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-80,0,0,80,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.0,2.15,2.2,silca
-80,0,0,80,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-80,0,0,80,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,28.0,28.5,1.95,2.0,silca
-80,0,0,80,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.5,2.05,2.1,silca
-80,0,0,80,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,26.5,27.0,1.8,1.85,silca
-80,0,0,80,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,24.0,25.0,1.65,1.7,silca
-80,0,0,80,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,30.0,30.5,2.05,2.1,silca
-80,0,0,80,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,28.0,29.0,1.95,2.0,silca
-80,0,0,80,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,26.0,26.5,1.8,1.85,silca
-80,0,0,80,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-80,0,0,80,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,23.0,23.5,1.6,1.65,silca
-80,0,0,80,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,24.5,25.0,1.7,1.75,silca
-80,0,0,80,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,22.0,22.5,1.5,1.55,silca
-80,0,0,80,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,20.0,20.5,1.4,1.4,silca
-85,0,0,85,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,70.0,72.0,4.85,4.95,silca
-85,0,0,85,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,66.5,68.5,4.6,4.7,silca
-85,0,0,85,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,61.0,62.5,4.2,4.3,silca
-85,0,0,85,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,64.0,65.5,4.4,4.5,silca
-85,0,0,85,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,54.5,56.0,3.75,3.85,silca
-85,0,0,85,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,58.0,59.5,4.0,4.1,silca
-85,0,0,85,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,51.5,53.0,3.55,3.65,silca
-85,0,0,85,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,47.5,48.5,3.25,3.35,silca
-85,0,0,85,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,63.5,65.0,4.35,4.5,silca
-85,0,0,85,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,60.0,61.5,4.15,4.25,silca
-85,0,0,85,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,55.0,56.5,3.8,3.9,silca
-85,0,0,85,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,57.5,59.0,3.95,4.05,silca
-85,0,0,85,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,49.5,50.5,3.4,3.5,silca
-85,0,0,85,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,52.5,53.5,3.6,3.7,silca
-85,0,0,85,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,46.5,47.5,3.2,3.3,silca
-85,0,0,85,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,42.5,44.0,2.95,3.0,silca
-85,0,0,85,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,55.0,56.5,3.8,3.9,silca
-85,0,0,85,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,52.0,53.5,3.6,3.7,silca
-85,0,0,85,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.0,3.3,3.4,silca
-85,0,0,85,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,50.0,51.0,3.45,3.55,silca
-85,0,0,85,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,42.5,44.0,2.95,3.0,silca
-85,0,0,85,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-85,0,0,85,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-85,0,0,85,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-85,0,0,85,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.5,3.3,3.4,silca
-85,0,0,85,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,45.5,47.0,3.15,3.25,silca
-85,0,0,85,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-85,0,0,85,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,43.5,45.0,3.0,3.1,silca
-85,0,0,85,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-85,0,0,85,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-85,0,0,85,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-85,0,0,85,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,32.5,33.0,2.25,2.3,silca
-85,0,0,85,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-85,0,0,85,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-85,0,0,85,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.75,silca
-85,0,0,85,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,40.0,41.5,2.8,2.85,silca
-85,0,0,85,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.35,2.45,silca
-85,0,0,85,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.6,silca
-85,0,0,85,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-85,0,0,85,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,30.0,30.5,2.05,2.1,silca
-85,0,0,85,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-85,0,0,85,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,39.0,39.5,2.65,2.75,silca
-85,0,0,85,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-85,0,0,85,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.65,silca
-85,0,0,85,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,32.0,32.5,2.2,2.25,silca
-85,0,0,85,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,34.0,34.5,2.35,2.4,silca
-85,0,0,85,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,30.0,31.0,2.05,2.1,silca
-85,0,0,85,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,27.5,28.0,1.9,1.95,silca
-85,0,0,85,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.55,silca
-85,0,0,85,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-85,0,0,85,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.5,2.2,2.25,silca
-85,0,0,85,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.3,2.35,silca
-85,0,0,85,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,28.5,29.0,1.95,2.0,silca
-85,0,0,85,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,30.0,31.0,2.05,2.1,silca
-85,0,0,85,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,26.5,27.5,1.85,1.9,silca
-85,0,0,85,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,24.5,25.0,1.7,1.75,silca
-85,0,0,85,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,30.0,31.0,2.05,2.15,silca
-85,0,0,85,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,28.5,29.0,1.95,2.0,silca
-85,0,0,85,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,26.0,27.0,1.8,1.85,silca
-85,0,0,85,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,27.5,28.0,1.9,1.95,silca
-85,0,0,85,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,23.5,24.0,1.6,1.65,silca
-85,0,0,85,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,25.0,25.5,1.7,1.75,silca
-85,0,0,85,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,22.0,22.5,1.5,1.55,silca
-85,0,0,85,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,20.0,21.0,1.4,1.45,silca
-90,0,0,90,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,71.0,72.5,4.9,5.0,silca
-90,0,0,90,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,67.0,69.0,4.65,4.75,silca
-90,0,0,90,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,62.0,63.5,4.25,4.35,silca
-90,0,0,90,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,64.5,66.0,4.45,4.55,silca
-90,0,0,90,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,55.0,56.5,3.8,3.9,silca
-90,0,0,90,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,58.5,60.0,4.05,4.15,silca
-90,0,0,90,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,52.0,53.5,3.6,3.7,silca
-90,0,0,90,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,48.0,49.0,3.3,3.4,silca
-90,0,0,90,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,64.0,65.5,4.4,4.5,silca
-90,0,0,90,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,60.5,62.0,4.2,4.3,silca
-90,0,0,90,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.0,3.85,3.95,silca
-90,0,0,90,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,58.0,59.5,4.0,4.1,silca
-90,0,0,90,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,50.0,51.0,3.45,3.5,silca
-90,0,0,90,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,53.0,54.5,3.65,3.75,silca
-90,0,0,90,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,47.0,48.5,3.25,3.35,silca
-90,0,0,90,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,43.0,44.5,3.0,3.05,silca
-90,0,0,90,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,55.5,57.0,3.8,3.9,silca
-90,0,0,90,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,52.5,54.0,3.6,3.7,silca
-90,0,0,90,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,48.5,49.5,3.35,3.4,silca
-90,0,0,90,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,50.5,51.5,3.5,3.55,silca
-90,0,0,90,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.5,3.0,3.05,silca
-90,0,0,90,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,46.0,47.0,3.15,3.25,silca
-90,0,0,90,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-90,0,0,90,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-90,0,0,90,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,48.5,50.0,3.35,3.45,silca
-90,0,0,90,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,46.0,47.0,3.2,3.25,silca
-90,0,0,90,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.9,3.0,silca
-90,0,0,90,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,44.0,45.5,3.05,3.1,silca
-90,0,0,90,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.7,silca
-90,0,0,90,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.85,silca
-90,0,0,90,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,36.0,36.5,2.45,2.55,silca
-90,0,0,90,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,33.0,33.5,2.25,2.3,silca
-90,0,0,90,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,44.5,46.0,3.1,3.15,silca
-90,0,0,90,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.9,3.0,silca
-90,0,0,90,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-90,0,0,90,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-90,0,0,90,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,35.0,35.5,2.4,2.45,silca
-90,0,0,90,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-90,0,0,90,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.25,2.35,silca
-90,0,0,90,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,30.0,31.0,2.1,2.15,silca
-90,0,0,90,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.9,silca
-90,0,0,90,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-90,0,0,90,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-90,0,0,90,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-90,0,0,90,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-90,0,0,90,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-90,0,0,90,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.0,2.1,2.15,silca
-90,0,0,90,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,28.0,28.5,1.9,1.95,silca
-90,0,0,90,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.55,2.6,silca
-90,0,0,90,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,35.0,35.5,2.4,2.45,silca
-90,0,0,90,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-90,0,0,90,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,33.5,34.0,2.3,2.35,silca
-90,0,0,90,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,28.5,29.5,1.95,2.0,silca
-90,0,0,90,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.0,2.1,2.15,silca
-90,0,0,90,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-90,0,0,90,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,25.0,25.5,1.7,1.75,silca
-90,0,0,90,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.0,2.1,2.15,silca
-90,0,0,90,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,29.0,29.5,2.0,2.05,silca
-90,0,0,90,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,26.5,27.0,1.8,1.85,silca
-90,0,0,90,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,27.5,28.5,1.9,1.95,silca
-90,0,0,90,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,23.5,24.0,1.65,1.65,silca
-90,0,0,90,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,25.0,25.5,1.75,1.75,silca
-90,0,0,90,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,22.5,23.0,1.55,1.6,silca
-90,0,0,90,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,20.5,21.0,1.4,1.45,silca
-95,0,0,95,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,71.5,73.5,4.95,5.05,silca
-95,0,0,95,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,68.0,69.5,4.7,4.8,silca
-95,0,0,95,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,62.5,64.0,4.3,4.4,silca
-95,0,0,95,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,65.0,66.5,4.5,4.6,silca
-95,0,0,95,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.5,3.85,3.95,silca
-95,0,0,95,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,59.5,61.0,4.1,4.2,silca
-95,0,0,95,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,53.0,54.0,3.65,3.75,silca
-95,0,0,95,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,48.5,50.0,3.35,3.45,silca
-95,0,0,95,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,64.5,66.0,4.45,4.55,silca
-95,0,0,95,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,61.0,63.0,4.2,4.35,silca
-95,0,0,95,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-95,0,0,95,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,58.5,60.0,4.05,4.15,silca
-95,0,0,95,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,50.5,51.5,3.5,3.55,silca
-95,0,0,95,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,53.5,55.0,3.7,3.8,silca
-95,0,0,95,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,47.5,49.0,3.3,3.35,silca
-95,0,0,95,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.0,3.1,silca
-95,0,0,95,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.5,3.85,3.95,silca
-95,0,0,95,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,53.0,54.5,3.65,3.75,silca
-95,0,0,95,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,49.0,50.0,3.35,3.45,silca
-95,0,0,95,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,51.0,52.0,3.5,3.6,silca
-95,0,0,95,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,43.5,45.0,3.0,3.1,silca
-95,0,0,95,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,46.5,47.5,3.2,3.3,silca
-95,0,0,95,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.9,silca
-95,0,0,95,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.7,silca
-95,0,0,95,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,49.0,50.5,3.4,3.45,silca
-95,0,0,95,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,46.5,47.5,3.2,3.3,silca
-95,0,0,95,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-95,0,0,95,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.1,3.15,silca
-95,0,0,95,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-95,0,0,95,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-95,0,0,95,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-95,0,0,95,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,33.5,34.0,2.3,2.35,silca
-95,0,0,95,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.2,silca
-95,0,0,95,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-95,0,0,95,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-95,0,0,95,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.85,2.9,silca
-95,0,0,95,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.45,2.5,silca
-95,0,0,95,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-95,0,0,95,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.0,2.3,2.35,silca
-95,0,0,95,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-95,0,0,95,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.95,silca
-95,0,0,95,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-95,0,0,95,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.55,silca
-95,0,0,95,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.7,silca
-95,0,0,95,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-95,0,0,95,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-95,0,0,95,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,31.0,31.5,2.1,2.15,silca
-95,0,0,95,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,28.5,29.0,1.95,2.0,silca
-95,0,0,95,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-95,0,0,95,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.5,silca
-95,0,0,95,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.0,2.25,2.3,silca
-95,0,0,95,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.4,silca
-95,0,0,95,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,29.0,29.5,2.0,2.05,silca
-95,0,0,95,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-95,0,0,95,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.0,1.9,1.95,silca
-95,0,0,95,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,25.0,26.0,1.75,1.8,silca
-95,0,0,95,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-95,0,0,95,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,29.0,30.0,2.0,2.05,silca
-95,0,0,95,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,26.5,27.5,1.85,1.9,silca
-95,0,0,95,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,28.0,28.5,1.9,1.95,silca
-95,0,0,95,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,24.0,24.5,1.65,1.7,silca
-95,0,0,95,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.0,1.75,1.8,silca
-95,0,0,95,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,22.5,23.0,1.55,1.6,silca
-95,0,0,95,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,21.0,21.5,1.45,1.45,silca
-100,0,0,100,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,72.0,74.0,4.95,5.1,silca
-100,0,0,100,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,68.5,70.0,4.7,4.85,silca
-100,0,0,100,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,63.0,64.5,4.35,4.45,silca
-100,0,0,100,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,65.5,67.5,4.55,4.65,silca
-100,0,0,100,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-100,0,0,100,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,60.0,61.5,4.15,4.25,silca
-100,0,0,100,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,53.5,55.0,3.7,3.8,silca
-100,0,0,100,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,49.0,50.5,3.4,3.5,silca
-100,0,0,100,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,65.0,66.5,4.5,4.6,silca
-100,0,0,100,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,62.0,63.5,4.25,4.35,silca
-100,0,0,100,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,57.0,58.5,3.9,4.0,silca
-100,0,0,100,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,59.5,61.0,4.1,4.2,silca
-100,0,0,100,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.5,3.5,3.6,silca
-100,0,0,100,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.5,3.75,3.8,silca
-100,0,0,100,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.5,3.35,3.4,silca
-100,0,0,100,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-100,0,0,100,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-100,0,0,100,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,53.5,55.0,3.7,3.8,silca
-100,0,0,100,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,49.5,50.5,3.4,3.5,silca
-100,0,0,100,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,51.5,52.5,3.55,3.65,silca
-100,0,0,100,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.5,3.05,3.1,silca
-100,0,0,100,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,47.0,48.0,3.25,3.3,silca
-100,0,0,100,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-100,0,0,100,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-100,0,0,100,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,49.5,50.5,3.4,3.5,silca
-100,0,0,100,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,47.0,48.0,3.25,3.3,silca
-100,0,0,100,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.5,3.0,3.05,silca
-100,0,0,100,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.2,silca
-100,0,0,100,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.75,silca
-100,0,0,100,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.85,2.9,silca
-100,0,0,100,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.55,2.6,silca
-100,0,0,100,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.4,silca
-100,0,0,100,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-100,0,0,100,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.5,3.0,3.05,silca
-100,0,0,100,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-100,0,0,100,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.95,silca
-100,0,0,100,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-100,0,0,100,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,38.0,38.5,2.6,2.65,silca
-100,0,0,100,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.35,2.4,silca
-100,0,0,100,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-100,0,0,100,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-100,0,0,100,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-100,0,0,100,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.55,2.6,silca
-100,0,0,100,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.65,2.7,silca
-100,0,0,100,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,33.0,33.5,2.25,2.35,silca
-100,0,0,100,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.45,silca
-100,0,0,100,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-100,0,0,100,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,28.5,29.5,1.95,2.0,silca
-100,0,0,100,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-100,0,0,100,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-100,0,0,100,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-100,0,0,100,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-100,0,0,100,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.0,2.05,silca
-100,0,0,100,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-100,0,0,100,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.5,1.9,1.95,silca
-100,0,0,100,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,25.5,26.0,1.75,1.8,silca
-100,0,0,100,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,31.0,31.5,2.15,2.2,silca
-100,0,0,100,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.0,2.05,silca
-100,0,0,100,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-100,0,0,100,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,28.0,29.0,1.95,2.0,silca
-100,0,0,100,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,24.0,25.0,1.65,1.7,silca
-100,0,0,100,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.5,1.75,1.8,silca
-100,0,0,100,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,23.0,23.5,1.6,1.6,silca
-100,0,0,100,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,21.0,21.5,1.45,1.5,silca
-105,0,0,105,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,72.5,74.5,5.0,5.15,silca
-105,0,0,105,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,69.0,71.0,4.75,4.9,silca
-105,0,0,105,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,63.5,65.5,4.4,4.5,silca
-105,0,0,105,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,66.5,68.0,4.55,4.7,silca
-105,0,0,105,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,57.0,58.5,3.95,4.05,silca
-105,0,0,105,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,60.5,62.0,4.15,4.3,silca
-105,0,0,105,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.5,3.75,3.8,silca
-105,0,0,105,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,50.0,51.0,3.45,3.5,silca
-105,0,0,105,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,65.5,67.5,4.55,4.65,silca
-105,0,0,105,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,62.5,64.0,4.3,4.4,silca
-105,0,0,105,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,57.5,59.0,3.95,4.05,silca
-105,0,0,105,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,60.0,61.5,4.15,4.25,silca
-105,0,0,105,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,51.5,53.0,3.55,3.65,silca
-105,0,0,105,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,54.5,56.0,3.75,3.85,silca
-105,0,0,105,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,49.0,50.0,3.35,3.45,silca
-105,0,0,105,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.2,silca
-105,0,0,105,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,57.0,58.5,3.9,4.0,silca
-105,0,0,105,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.5,3.75,3.8,silca
-105,0,0,105,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,50.0,51.0,3.45,3.5,silca
-105,0,0,105,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,52.0,53.0,3.6,3.65,silca
-105,0,0,105,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,44.5,46.0,3.1,3.15,silca
-105,0,0,105,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,47.5,48.5,3.25,3.35,silca
-105,0,0,105,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.9,3.0,silca
-105,0,0,105,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-105,0,0,105,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,50.0,51.0,3.45,3.55,silca
-105,0,0,105,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,47.5,48.5,3.25,3.35,silca
-105,0,0,105,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,43.5,45.0,3.0,3.1,silca
-105,0,0,105,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-105,0,0,105,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-105,0,0,105,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.95,silca
-105,0,0,105,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-105,0,0,105,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-105,0,0,105,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,46.0,47.0,3.15,3.25,silca
-105,0,0,105,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,43.5,44.5,3.0,3.1,silca
-105,0,0,105,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.85,silca
-105,0,0,105,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-105,0,0,105,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-105,0,0,105,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.65,2.7,silca
-105,0,0,105,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-105,0,0,105,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,31.5,32.0,2.15,2.2,silca
-105,0,0,105,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.9,3.0,silca
-105,0,0,105,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.5,2.75,2.85,silca
-105,0,0,105,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-105,0,0,105,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.75,silca
-105,0,0,105,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.0,2.3,2.35,silca
-105,0,0,105,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.45,2.5,silca
-105,0,0,105,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.5,2.15,2.25,silca
-105,0,0,105,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,29.0,29.5,2.0,2.05,silca
-105,0,0,105,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-105,0,0,105,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,36.0,36.5,2.45,2.55,silca
-105,0,0,105,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.3,2.35,silca
-105,0,0,105,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,34.5,35.0,2.35,2.45,silca
-105,0,0,105,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.5,2.05,2.1,silca
-105,0,0,105,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.0,2.15,2.2,silca
-105,0,0,105,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,28.0,28.5,1.95,2.0,silca
-105,0,0,105,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,26.0,26.5,1.8,1.8,silca
-105,0,0,105,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,31.0,32.0,2.15,2.2,silca
-105,0,0,105,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.5,2.05,2.1,silca
-105,0,0,105,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.0,1.9,1.95,silca
-105,0,0,105,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,28.5,29.0,1.95,2.0,silca
-105,0,0,105,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,24.5,25.0,1.7,1.75,silca
-105,0,0,105,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,26.0,26.5,1.8,1.85,silca
-105,0,0,105,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,23.0,23.5,1.6,1.65,silca
-105,0,0,105,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,21.5,22.0,1.45,1.5,silca
-110,0,0,110,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,73.5,75.0,5.05,5.2,silca
-110,0,0,110,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,69.5,71.5,4.8,4.95,silca
-110,0,0,110,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,64.5,66.0,4.45,4.55,silca
-110,0,0,110,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,67.0,68.5,4.6,4.75,silca
-110,0,0,110,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,57.5,59.0,4.0,4.1,silca
-110,0,0,110,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,61.0,62.5,4.2,4.3,silca
-110,0,0,110,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,54.5,56.0,3.75,3.85,silca
-110,0,0,110,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,50.5,51.5,3.5,3.55,silca
-110,0,0,110,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,66.0,68.0,4.55,4.7,silca
-110,0,0,110,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,63.0,64.5,4.35,4.45,silca
-110,0,0,110,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,58.0,59.5,4.0,4.1,silca
-110,0,0,110,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,60.5,62.0,4.15,4.25,silca
-110,0,0,110,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,52.0,53.5,3.6,3.7,silca
-110,0,0,110,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,55.0,56.5,3.8,3.9,silca
-110,0,0,110,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,49.5,50.5,3.4,3.5,silca
-110,0,0,110,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-110,0,0,110,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,57.5,59.0,3.95,4.05,silca
-110,0,0,110,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,54.5,56.0,3.75,3.85,silca
-110,0,0,110,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,50.5,51.5,3.45,3.55,silca
-110,0,0,110,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,52.5,53.5,3.6,3.7,silca
-110,0,0,110,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.5,3.1,3.2,silca
-110,0,0,110,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.0,3.3,3.4,silca
-110,0,0,110,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-110,0,0,110,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-110,0,0,110,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,50.5,51.5,3.45,3.55,silca
-110,0,0,110,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.0,3.3,3.4,silca
-110,0,0,110,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.05,3.1,silca
-110,0,0,110,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,46.0,47.0,3.15,3.25,silca
-110,0,0,110,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.75,2.8,silca
-110,0,0,110,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-110,0,0,110,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-110,0,0,110,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-110,0,0,110,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,46.5,47.5,3.2,3.25,silca
-110,0,0,110,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.05,3.1,silca
-110,0,0,110,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-110,0,0,110,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,42.0,43.5,2.9,3.0,silca
-110,0,0,110,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.6,silca
-110,0,0,110,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.75,silca
-110,0,0,110,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-110,0,0,110,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,32.0,32.5,2.2,2.25,silca
-110,0,0,110,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,42.5,44.0,2.95,3.0,silca
-110,0,0,110,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-110,0,0,110,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-110,0,0,110,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-110,0,0,110,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.4,silca
-110,0,0,110,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-110,0,0,110,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,32.0,32.5,2.2,2.25,silca
-110,0,0,110,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.0,2.1,silca
-110,0,0,110,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.7,silca
-110,0,0,110,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-110,0,0,110,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.0,2.3,2.35,silca
-110,0,0,110,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-110,0,0,110,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,30.0,30.5,2.05,2.1,silca
-110,0,0,110,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.5,2.2,2.25,silca
-110,0,0,110,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,28.5,29.0,1.95,2.0,silca
-110,0,0,110,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,26.0,27.0,1.8,1.85,silca
-110,0,0,110,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.0,2.15,2.2,silca
-110,0,0,110,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,30.0,30.5,2.05,2.1,silca
-110,0,0,110,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,27.5,28.0,1.9,1.95,silca
-110,0,0,110,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,28.5,29.5,2.0,2.05,silca
-110,0,0,110,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,24.5,25.5,1.7,1.75,silca
-110,0,0,110,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,26.0,27.0,1.8,1.85,silca
-110,0,0,110,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,23.5,24.0,1.6,1.65,silca
-110,0,0,110,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,21.5,22.0,1.5,1.55,silca
-115,0,0,115,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,74.0,76.0,5.1,5.25,silca
-115,0,0,115,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,70.5,72.0,4.85,4.95,silca
-115,0,0,115,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,65.0,66.5,4.5,4.6,silca
-115,0,0,115,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,67.5,69.5,4.65,4.8,silca
-115,0,0,115,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,58.5,60.0,4.0,4.15,silca
-115,0,0,115,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,62.0,63.5,4.25,4.35,silca
-115,0,0,115,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,55.5,56.5,3.8,3.9,silca
-115,0,0,115,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,51.0,52.5,3.5,3.6,silca
-115,0,0,115,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,67.0,68.5,4.6,4.7,silca
-115,0,0,115,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,63.5,65.0,4.4,4.5,silca
-115,0,0,115,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,58.5,60.0,4.05,4.15,silca
-115,0,0,115,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,61.0,62.5,4.2,4.3,silca
-115,0,0,115,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,52.5,54.0,3.65,3.7,silca
-115,0,0,115,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.0,3.85,3.95,silca
-115,0,0,115,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,50.0,51.0,3.45,3.55,silca
-115,0,0,115,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,46.0,47.5,3.2,3.25,silca
-115,0,0,115,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,58.0,59.5,4.0,4.1,silca
-115,0,0,115,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,55.0,56.5,3.8,3.9,silca
-115,0,0,115,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.0,3.5,3.6,silca
-115,0,0,115,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,53.0,54.0,3.65,3.75,silca
-115,0,0,115,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,45.5,47.0,3.15,3.25,silca
-115,0,0,115,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,48.5,49.5,3.35,3.4,silca
-115,0,0,115,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,43.5,44.5,3.0,3.05,silca
-115,0,0,115,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-115,0,0,115,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,50.5,52.0,3.5,3.6,silca
-115,0,0,115,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,48.0,49.5,3.35,3.4,silca
-115,0,0,115,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-115,0,0,115,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,46.5,47.5,3.2,3.3,silca
-115,0,0,115,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.85,silca
-115,0,0,115,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.9,3.0,silca
-115,0,0,115,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.7,silca
-115,0,0,115,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.5,silca
-115,0,0,115,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,46.5,48.0,3.2,3.3,silca
-115,0,0,115,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-115,0,0,115,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-115,0,0,115,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,42.5,43.5,2.95,3.0,silca
-115,0,0,115,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-115,0,0,115,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-115,0,0,115,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.45,silca
-115,0,0,115,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.3,silca
-115,0,0,115,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-115,0,0,115,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-115,0,0,115,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.6,2.65,silca
-115,0,0,115,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-115,0,0,115,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-115,0,0,115,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.5,2.55,silca
-115,0,0,115,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.3,silca
-115,0,0,115,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,29.5,30.5,2.05,2.1,silca
-115,0,0,115,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-115,0,0,115,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.6,silca
-115,0,0,115,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,33.5,34.5,2.3,2.4,silca
-115,0,0,115,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,35.0,36.0,2.4,2.5,silca
-115,0,0,115,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.0,2.1,2.15,silca
-115,0,0,115,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-115,0,0,115,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,28.5,29.5,2.0,2.05,silca
-115,0,0,115,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,26.5,27.0,1.8,1.85,silca
-115,0,0,115,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,31.5,32.5,2.2,2.25,silca
-115,0,0,115,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,30.0,31.0,2.1,2.15,silca
-115,0,0,115,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,28.0,28.5,1.9,1.95,silca
-115,0,0,115,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,29.0,29.5,2.0,2.05,silca
-115,0,0,115,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,25.0,25.5,1.7,1.75,silca
-115,0,0,115,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,26.5,27.0,1.8,1.85,silca
-115,0,0,115,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,23.5,24.5,1.65,1.7,silca
-115,0,0,115,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,22.0,22.5,1.5,1.55,silca
-120,0,0,120,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,74.5,76.5,5.15,5.3,silca
-120,0,0,120,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,71.0,73.0,4.9,5.0,silca
-120,0,0,120,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,65.5,67.0,4.5,4.65,silca
-120,0,0,120,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,68.0,70.0,4.7,4.8,silca
-120,0,0,120,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,59.0,60.5,4.05,4.15,silca
-120,0,0,120,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,62.5,64.0,4.3,4.4,silca
-120,0,0,120,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.5,3.85,3.95,silca
-120,0,0,120,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,51.5,53.0,3.55,3.65,silca
-120,0,0,120,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,67.5,69.0,4.65,4.75,silca
-120,0,0,120,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,64.0,65.5,4.4,4.55,silca
-120,0,0,120,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,59.0,60.5,4.1,4.2,silca
-120,0,0,120,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,61.5,63.0,4.25,4.35,silca
-120,0,0,120,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,53.0,54.5,3.65,3.75,silca
-120,0,0,120,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-120,0,0,120,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,50.5,52.0,3.5,3.55,silca
-120,0,0,120,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,46.5,48.0,3.2,3.3,silca
-120,0,0,120,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,58.5,60.0,4.05,4.15,silca
-120,0,0,120,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,55.5,57.0,3.85,3.95,silca
-120,0,0,120,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,51.5,52.5,3.55,3.65,silca
-120,0,0,120,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,53.5,54.5,3.7,3.75,silca
-120,0,0,120,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,46.0,47.5,3.2,3.25,silca
-120,0,0,120,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,49.0,50.0,3.35,3.45,silca
-120,0,0,120,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.0,3.1,silca
-120,0,0,120,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-120,0,0,120,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.5,3.55,3.6,silca
-120,0,0,120,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,48.5,50.0,3.35,3.45,silca
-120,0,0,120,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.2,silca
-120,0,0,120,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,47.0,48.0,3.2,3.3,silca
-120,0,0,120,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,40.5,41.5,2.8,2.85,silca
-120,0,0,120,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-120,0,0,120,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-120,0,0,120,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-120,0,0,120,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,47.0,48.5,3.25,3.35,silca
-120,0,0,120,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.0,3.1,3.15,silca
-120,0,0,120,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.9,silca
-120,0,0,120,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,43.0,44.0,2.95,3.05,silca
-120,0,0,120,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.65,silca
-120,0,0,120,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.7,2.8,silca
-120,0,0,120,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.0,2.45,2.5,silca
-120,0,0,120,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-120,0,0,120,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,43.5,44.5,3.0,3.05,silca
-120,0,0,120,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,41.5,42.5,2.85,2.9,silca
-120,0,0,120,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,38.0,39.0,2.65,2.7,silca
-120,0,0,120,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,39.5,40.5,2.75,2.8,silca
-120,0,0,120,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.0,2.35,2.45,silca
-120,0,0,120,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.5,2.55,silca
-120,0,0,120,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-120,0,0,120,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,30.0,31.0,2.1,2.15,silca
-120,0,0,120,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.75,silca
-120,0,0,120,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,37.0,37.5,2.55,2.6,silca
-120,0,0,120,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,34.0,35.0,2.35,2.4,silca
-120,0,0,120,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,35.5,36.0,2.45,2.5,silca
-120,0,0,120,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-120,0,0,120,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.0,2.25,2.3,silca
-120,0,0,120,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,29.0,29.5,2.0,2.05,silca
-120,0,0,120,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-120,0,0,120,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.25,silca
-120,0,0,120,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.0,2.1,2.15,silca
-120,0,0,120,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,28.0,29.0,1.95,2.0,silca
-120,0,0,120,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,29.0,30.0,2.0,2.05,silca
-120,0,0,120,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.0,1.75,1.8,silca
-120,0,0,120,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,26.5,27.5,1.85,1.9,silca
-120,0,0,120,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,24.0,24.5,1.65,1.7,silca
-120,0,0,120,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,22.0,22.5,1.55,1.55,silca
-125,0,0,125,30,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,75.5,77.0,5.2,5.3,silca
-125,0,0,125,30,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,71.5,73.5,4.95,5.05,silca
-125,0,0,125,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,66.0,68.0,4.55,4.7,silca
-125,0,0,125,30,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,69.0,70.5,4.75,4.85,silca
-125,0,0,125,30,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,59.5,61.0,4.1,4.2,silca
-125,0,0,125,30,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,63.0,64.5,4.35,4.45,silca
-125,0,0,125,30,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,56.5,58.0,3.9,4.0,silca
-125,0,0,125,30,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,52.5,53.5,3.6,3.7,silca
-125,0,0,125,32,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,68.0,69.5,4.7,4.8,silca
-125,0,0,125,32,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,64.5,66.5,4.45,4.55,silca
-125,0,0,125,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,59.5,61.5,4.1,4.2,silca
-125,0,0,125,32,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,62.0,63.5,4.3,4.4,silca
-125,0,0,125,32,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,54.0,55.0,3.7,3.8,silca
-125,0,0,125,32,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,57.0,58.5,3.9,4.0,silca
-125,0,0,125,32,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,51.0,52.5,3.5,3.6,silca
-125,0,0,125,32,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,47.0,48.5,3.25,3.35,silca
-125,0,0,125,35,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,59.0,60.5,4.05,4.15,silca
-125,0,0,125,35,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,56.0,57.5,3.85,3.95,silca
-125,0,0,125,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,52.0,53.0,3.55,3.65,silca
-125,0,0,125,35,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,54.0,55.0,3.7,3.8,silca
-125,0,0,125,35,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,46.5,48.0,3.2,3.3,silca
-125,0,0,125,35,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,49.5,50.5,3.4,3.5,silca
-125,0,0,125,35,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,44.5,45.5,3.05,3.15,silca
-125,0,0,125,35,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-125,0,0,125,38,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,51.5,53.0,3.55,3.65,silca
-125,0,0,125,38,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,49.0,50.5,3.4,3.45,silca
-125,0,0,125,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,45.5,46.5,3.15,3.2,silca
-125,0,0,125,38,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,47.0,48.5,3.25,3.35,silca
-125,0,0,125,38,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,41.0,42.0,2.8,2.9,silca
-125,0,0,125,38,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,43.0,44.5,3.0,3.05,silca
-125,0,0,125,38,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-125,0,0,125,38,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,36.0,37.0,2.45,2.55,silca
-125,0,0,125,40,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,47.5,48.5,3.25,3.35,silca
-125,0,0,125,40,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,45.0,46.5,3.1,3.2,silca
-125,0,0,125,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,42.0,43.0,2.9,2.95,silca
-125,0,0,125,40,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,43.5,44.5,3.0,3.05,silca
-125,0,0,125,40,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,37.5,38.5,2.6,2.65,silca
-125,0,0,125,40,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.8,silca
-125,0,0,125,40,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.55,silca
-125,0,0,125,40,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.3,2.35,silca
-125,0,0,125,42,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,44.0,45.0,3.0,3.1,silca
-125,0,0,125,42,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,41.5,43.0,2.85,2.95,silca
-125,0,0,125,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,38.5,39.5,2.65,2.7,silca
-125,0,0,125,42,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,40.0,41.0,2.75,2.85,silca
-125,0,0,125,42,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.5,2.4,2.45,silca
-125,0,0,125,42,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,36.5,37.5,2.55,2.6,silca
-125,0,0,125,42,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,33.0,34.0,2.25,2.35,silca
-125,0,0,125,42,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,30.5,31.0,2.1,2.15,silca
-125,0,0,125,45,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,39.0,40.0,2.7,2.75,silca
-125,0,0,125,45,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,37.0,38.0,2.55,2.6,silca
-125,0,0,125,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,34.5,35.0,2.35,2.45,silca
-125,0,0,125,45,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,35.5,36.5,2.45,2.5,silca
-125,0,0,125,45,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,31.0,31.5,2.15,2.2,silca
-125,0,0,125,45,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,32.5,33.5,2.25,2.3,silca
-125,0,0,125,45,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.0,2.05,silca
-125,0,0,125,45,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,27.0,28.0,1.85,1.9,silca
-125,0,0,125,50,Asfalto nuevo,700C,Road,mid-range-tubeless-latex,17.5,32.0,33.0,2.2,2.3,silca
-125,0,0,125,50,Asfalto desgastado / fisuras,700C,Road,mid-range-tubeless-latex,17.5,30.5,31.5,2.1,2.15,silca
-125,0,0,125,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-tubeless-latex,17.5,28.5,29.0,1.95,2.0,silca
-125,0,0,125,50,Grava cat. 1 (ligera),700C,Road,mid-range-tubeless-latex,17.5,29.5,30.0,2.05,2.1,silca
-125,0,0,125,50,Adoquín,700C,Road,mid-range-tubeless-latex,17.5,25.5,26.0,1.75,1.8,silca
-125,0,0,125,50,Grava cat. 2,700C,Road,mid-range-tubeless-latex,17.5,27.0,27.5,1.85,1.9,silca
-125,0,0,125,50,Grava cat. 3,700C,Road,mid-range-tubeless-latex,17.5,24.0,25.0,1.65,1.7,silca
-125,0,0,125,50,Grava cat. 4 (gruesa),700C,Road,mid-range-tubeless-latex,17.5,22.5,23.0,1.55,1.6,silca
+70,0,0,70,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,65.5,67.5,4.5,4.65,silca
+70,0,0,70,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,62.0,63.5,4.3,4.4,silca
+70,0,0,70,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,57.0,58.5,3.9,4.0,silca
+70,0,0,70,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,59.5,61.0,4.1,4.2,silca
+70,0,0,70,30,Adoquín,700C,Road,mid-range-butyl,14,50.5,52.0,3.5,3.6,silca
+70,0,0,70,30,Grava cat. 2,700C,Road,mid-range-butyl,14,54.0,55.0,3.7,3.8,silca
+70,0,0,70,30,Grava cat. 3,700C,Road,mid-range-butyl,14,47.5,49.0,3.3,3.35,silca
+70,0,0,70,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.1,silca
+70,0,0,70,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,59.0,60.5,4.1,4.2,silca
+70,0,0,70,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,56.0,57.5,3.85,3.95,silca
+70,0,0,70,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,51.5,52.5,3.55,3.65,silca
+70,0,0,70,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,53.5,55.0,3.7,3.8,silca
+70,0,0,70,32,Adoquín,700C,Road,mid-range-butyl,14,45.5,47.0,3.15,3.25,silca
+70,0,0,70,32,Grava cat. 2,700C,Road,mid-range-butyl,14,48.5,50.0,3.35,3.45,silca
+70,0,0,70,32,Grava cat. 3,700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+70,0,0,70,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+70,0,0,70,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,51.5,52.5,3.55,3.65,silca
+70,0,0,70,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,48.5,50.0,3.35,3.45,silca
+70,0,0,70,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,44.5,45.5,3.05,3.15,silca
+70,0,0,70,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,46.5,47.5,3.2,3.3,silca
+70,0,0,70,35,Adoquín,700C,Road,mid-range-butyl,14,39.5,40.5,2.75,2.8,silca
+70,0,0,70,35,Grava cat. 2,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,3.0,silca
+70,0,0,70,35,Grava cat. 3,700C,Road,mid-range-butyl,14,37.5,38.5,2.55,2.65,silca
+70,0,0,70,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+70,0,0,70,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.2,silca
+70,0,0,70,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+70,0,0,70,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+70,0,0,70,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,41.0,42.0,2.8,2.9,silca
+70,0,0,70,38,Adoquín,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+70,0,0,70,38,Grava cat. 2,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+70,0,0,70,38,Grava cat. 3,700C,Road,mid-range-butyl,14,32.5,33.5,2.25,2.3,silca
+70,0,0,70,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+70,0,0,70,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+70,0,0,70,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+70,0,0,70,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,36.0,37.0,2.45,2.55,silca
+70,0,0,70,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+70,0,0,70,40,Adoquín,700C,Road,mid-range-butyl,14,32.0,32.5,2.2,2.25,silca
+70,0,0,70,40,Grava cat. 2,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+70,0,0,70,40,Grava cat. 3,700C,Road,mid-range-butyl,14,30.0,31.0,2.05,2.15,silca
+70,0,0,70,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+70,0,0,70,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,38.0,39.0,2.65,2.7,silca
+70,0,0,70,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+70,0,0,70,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+70,0,0,70,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+70,0,0,70,42,Adoquín,700C,Road,mid-range-butyl,14,29.5,30.0,2.05,2.1,silca
+70,0,0,70,42,Grava cat. 2,700C,Road,mid-range-butyl,14,31.5,32.0,2.15,2.2,silca
+70,0,0,70,42,Grava cat. 3,700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+70,0,0,70,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,25.5,26.0,1.75,1.8,silca
+70,0,0,70,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+70,0,0,70,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,32.0,33.0,2.2,2.3,silca
+70,0,0,70,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,29.5,30.0,2.05,2.1,silca
+70,0,0,70,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,31.0,31.5,2.1,2.2,silca
+70,0,0,70,45,Adoquín,700C,Road,mid-range-butyl,14,26.0,27.0,1.8,1.85,silca
+70,0,0,70,45,Grava cat. 2,700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+70,0,0,70,45,Grava cat. 3,700C,Road,mid-range-butyl,14,24.5,25.5,1.7,1.75,silca
+70,0,0,70,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,22.5,23.0,1.55,1.6,silca
+70,0,0,70,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+70,0,0,70,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,26.5,27.5,1.85,1.9,silca
+70,0,0,70,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,24.5,25.0,1.7,1.7,silca
+70,0,0,70,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,25.5,26.0,1.75,1.8,silca
+70,0,0,70,50,Adoquín,700C,Road,mid-range-butyl,14,21.5,22.0,1.5,1.55,silca
+70,0,0,70,50,Grava cat. 2,700C,Road,mid-range-butyl,14,23.0,23.5,1.6,1.65,silca
+70,0,0,70,50,Grava cat. 3,700C,Road,mid-range-butyl,14,20.5,21.0,1.4,1.45,silca
+70,0,0,70,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,18.5,19.0,1.3,1.3,silca
+75,0,0,75,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,66.0,68.0,4.55,4.7,silca
+75,0,0,75,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,62.5,64.5,4.3,4.45,silca
+75,0,0,75,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,57.5,59.0,3.95,4.05,silca
+75,0,0,75,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,60.0,61.5,4.15,4.25,silca
+75,0,0,75,30,Adoquín,700C,Road,mid-range-butyl,14,51.0,52.5,3.55,3.6,silca
+75,0,0,75,30,Grava cat. 2,700C,Road,mid-range-butyl,14,54.5,56.0,3.75,3.85,silca
+75,0,0,75,30,Grava cat. 3,700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.4,silca
+75,0,0,75,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,44.0,45.5,3.05,3.1,silca
+75,0,0,75,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,60.0,61.5,4.1,4.2,silca
+75,0,0,75,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,56.5,58.0,3.9,4.0,silca
+75,0,0,75,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,52.0,53.0,3.6,3.65,silca
+75,0,0,75,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,54.0,55.5,3.75,3.85,silca
+75,0,0,75,32,Adoquín,700C,Road,mid-range-butyl,14,46.0,47.5,3.2,3.25,silca
+75,0,0,75,32,Grava cat. 2,700C,Road,mid-range-butyl,14,49.0,50.5,3.4,3.5,silca
+75,0,0,75,32,Grava cat. 3,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.1,silca
+75,0,0,75,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.8,silca
+75,0,0,75,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,52.0,53.0,3.55,3.65,silca
+75,0,0,75,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,49.0,50.5,3.4,3.45,silca
+75,0,0,75,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.2,silca
+75,0,0,75,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,47.0,48.0,3.25,3.3,silca
+75,0,0,75,35,Adoquín,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.85,silca
+75,0,0,75,35,Grava cat. 2,700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+75,0,0,75,35,Grava cat. 3,700C,Road,mid-range-butyl,14,38.0,38.5,2.6,2.65,silca
+75,0,0,75,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+75,0,0,75,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,45.5,46.5,3.15,3.2,silca
+75,0,0,75,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+75,0,0,75,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+75,0,0,75,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+75,0,0,75,38,Adoquín,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.5,silca
+75,0,0,75,38,Grava cat. 2,700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+75,0,0,75,38,Grava cat. 3,700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+75,0,0,75,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,30.5,31.0,2.1,2.15,silca
+75,0,0,75,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+75,0,0,75,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,39.5,40.5,2.75,2.8,silca
+75,0,0,75,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,36.5,37.0,2.5,2.55,silca
+75,0,0,75,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,38.0,39.0,2.6,2.7,silca
+75,0,0,75,40,Adoquín,700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+75,0,0,75,40,Grava cat. 2,700C,Road,mid-range-butyl,14,34.5,35.0,2.35,2.45,silca
+75,0,0,75,40,Grava cat. 3,700C,Road,mid-range-butyl,14,30.5,31.0,2.1,2.15,silca
+75,0,0,75,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+75,0,0,75,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.75,silca
+75,0,0,75,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,36.5,37.5,2.5,2.6,silca
+75,0,0,75,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.35,silca
+75,0,0,75,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.45,silca
+75,0,0,75,42,Adoquín,700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+75,0,0,75,42,Grava cat. 2,700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+75,0,0,75,42,Grava cat. 3,700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+75,0,0,75,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,25.5,26.5,1.75,1.8,silca
+75,0,0,75,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,34.5,35.0,2.35,2.45,silca
+75,0,0,75,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,32.5,33.5,2.25,2.3,silca
+75,0,0,75,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+75,0,0,75,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,31.0,32.0,2.15,2.2,silca
+75,0,0,75,45,Adoquín,700C,Road,mid-range-butyl,14,26.5,27.0,1.85,1.9,silca
+75,0,0,75,45,Grava cat. 2,700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+75,0,0,75,45,Grava cat. 3,700C,Road,mid-range-butyl,14,25.0,25.5,1.75,1.75,silca
+75,0,0,75,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,23.0,23.5,1.6,1.6,silca
+75,0,0,75,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,28.5,29.0,1.95,2.0,silca
+75,0,0,75,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,27.0,27.5,1.85,1.9,silca
+75,0,0,75,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,24.5,25.0,1.7,1.75,silca
+75,0,0,75,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,25.5,26.5,1.75,1.8,silca
+75,0,0,75,50,Adoquín,700C,Road,mid-range-butyl,14,22.0,22.5,1.5,1.55,silca
+75,0,0,75,50,Grava cat. 2,700C,Road,mid-range-butyl,14,23.5,24.0,1.6,1.65,silca
+75,0,0,75,50,Grava cat. 3,700C,Road,mid-range-butyl,14,20.5,21.0,1.45,1.45,silca
+75,0,0,75,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,19.0,19.5,1.3,1.35,silca
+80,0,0,80,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,67.0,68.5,4.6,4.7,silca
+80,0,0,80,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,63.5,65.0,4.35,4.5,silca
+80,0,0,80,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,58.0,59.5,4.0,4.1,silca
+80,0,0,80,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,60.5,62.0,4.2,4.3,silca
+80,0,0,80,30,Adoquín,700C,Road,mid-range-butyl,14,52.0,53.0,3.55,3.65,silca
+80,0,0,80,30,Grava cat. 2,700C,Road,mid-range-butyl,14,55.0,56.5,3.8,3.9,silca
+80,0,0,80,30,Grava cat. 3,700C,Road,mid-range-butyl,14,49.0,50.0,3.35,3.45,silca
+80,0,0,80,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.15,silca
+80,0,0,80,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,60.5,62.0,4.15,4.25,silca
+80,0,0,80,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,57.0,58.5,3.95,4.05,silca
+80,0,0,80,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,52.5,54.0,3.6,3.7,silca
+80,0,0,80,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,54.5,56.0,3.75,3.85,silca
+80,0,0,80,32,Adoquín,700C,Road,mid-range-butyl,14,47.0,48.0,3.2,3.3,silca
+80,0,0,80,32,Grava cat. 2,700C,Road,mid-range-butyl,14,49.5,51.0,3.45,3.5,silca
+80,0,0,80,32,Grava cat. 3,700C,Road,mid-range-butyl,14,44.0,45.5,3.05,3.1,silca
+80,0,0,80,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+80,0,0,80,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,52.5,53.5,3.6,3.7,silca
+80,0,0,80,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,49.5,51.0,3.4,3.5,silca
+80,0,0,80,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,45.5,46.5,3.15,3.2,silca
+80,0,0,80,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,47.5,48.5,3.25,3.35,silca
+80,0,0,80,35,Adoquín,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+80,0,0,80,35,Grava cat. 2,700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+80,0,0,80,35,Grava cat. 3,700C,Road,mid-range-butyl,14,38.5,39.0,2.65,2.7,silca
+80,0,0,80,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.5,silca
+80,0,0,80,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,46.0,47.0,3.15,3.25,silca
+80,0,0,80,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.05,silca
+80,0,0,80,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.8,silca
+80,0,0,80,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+80,0,0,80,38,Adoquín,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+80,0,0,80,38,Grava cat. 2,700C,Road,mid-range-butyl,14,38.0,38.5,2.6,2.65,silca
+80,0,0,80,38,Grava cat. 3,700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.35,silca
+80,0,0,80,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+80,0,0,80,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,3.0,silca
+80,0,0,80,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.8,silca
+80,0,0,80,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,36.5,37.5,2.55,2.6,silca
+80,0,0,80,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,38.5,39.0,2.65,2.7,silca
+80,0,0,80,40,Adoquín,700C,Road,mid-range-butyl,14,32.5,33.5,2.25,2.3,silca
+80,0,0,80,40,Grava cat. 2,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+80,0,0,80,40,Grava cat. 3,700C,Road,mid-range-butyl,14,31.0,31.5,2.15,2.2,silca
+80,0,0,80,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,28.5,29.0,1.95,2.0,silca
+80,0,0,80,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+80,0,0,80,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+80,0,0,80,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,34.0,34.5,2.35,2.4,silca
+80,0,0,80,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,35.5,36.0,2.45,2.5,silca
+80,0,0,80,42,Adoquín,700C,Road,mid-range-butyl,14,30.0,31.0,2.1,2.15,silca
+80,0,0,80,42,Grava cat. 2,700C,Road,mid-range-butyl,14,32.0,33.0,2.2,2.25,silca
+80,0,0,80,42,Grava cat. 3,700C,Road,mid-range-butyl,14,28.5,29.0,1.95,2.0,silca
+80,0,0,80,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,26.0,26.5,1.8,1.85,silca
+80,0,0,80,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+80,0,0,80,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,33.0,33.5,2.25,2.3,silca
+80,0,0,80,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,30.0,31.0,2.1,2.15,silca
+80,0,0,80,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,31.5,32.0,2.15,2.2,silca
+80,0,0,80,45,Adoquín,700C,Road,mid-range-butyl,14,27.0,27.5,1.85,1.9,silca
+80,0,0,80,45,Grava cat. 2,700C,Road,mid-range-butyl,14,28.5,29.5,1.95,2.0,silca
+80,0,0,80,45,Grava cat. 3,700C,Road,mid-range-butyl,14,25.5,26.0,1.75,1.8,silca
+80,0,0,80,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,23.0,24.0,1.6,1.65,silca
+80,0,0,80,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,28.5,29.5,1.95,2.0,silca
+80,0,0,80,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,27.0,28.0,1.85,1.9,silca
+80,0,0,80,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,25.0,25.5,1.7,1.75,silca
+80,0,0,80,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,26.0,26.5,1.8,1.85,silca
+80,0,0,80,50,Adoquín,700C,Road,mid-range-butyl,14,22.0,22.5,1.55,1.55,silca
+80,0,0,80,50,Grava cat. 2,700C,Road,mid-range-butyl,14,23.5,24.0,1.65,1.65,silca
+80,0,0,80,50,Grava cat. 3,700C,Road,mid-range-butyl,14,21.0,21.5,1.45,1.5,silca
+80,0,0,80,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,19.0,19.5,1.3,1.35,silca
+85,0,0,85,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,67.5,69.0,4.65,4.75,silca
+85,0,0,85,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,64.0,65.5,4.4,4.5,silca
+85,0,0,85,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,58.5,60.0,4.05,4.15,silca
+85,0,0,85,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,61.0,63.0,4.2,4.35,silca
+85,0,0,85,30,Adoquín,700C,Road,mid-range-butyl,14,52.5,53.5,3.6,3.7,silca
+85,0,0,85,30,Grava cat. 2,700C,Road,mid-range-butyl,14,55.5,57.0,3.85,3.95,silca
+85,0,0,85,30,Grava cat. 3,700C,Road,mid-range-butyl,14,49.5,51.0,3.4,3.5,silca
+85,0,0,85,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,45.5,46.5,3.15,3.2,silca
+85,0,0,85,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,61.0,62.5,4.2,4.3,silca
+85,0,0,85,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,57.5,59.0,4.0,4.1,silca
+85,0,0,85,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,53.0,54.5,3.65,3.75,silca
+85,0,0,85,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,55.5,56.5,3.8,3.9,silca
+85,0,0,85,32,Adoquín,700C,Road,mid-range-butyl,14,47.5,48.5,3.25,3.35,silca
+85,0,0,85,32,Grava cat. 2,700C,Road,mid-range-butyl,14,50.5,51.5,3.45,3.55,silca
+85,0,0,85,32,Grava cat. 3,700C,Road,mid-range-butyl,14,44.5,46.0,3.1,3.15,silca
+85,0,0,85,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,41.0,42.0,2.8,2.9,silca
+85,0,0,85,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,53.0,54.0,3.65,3.75,silca
+85,0,0,85,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,50.0,51.5,3.45,3.55,silca
+85,0,0,85,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,46.0,47.0,3.15,3.25,silca
+85,0,0,85,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,48.0,49.0,3.3,3.4,silca
+85,0,0,85,35,Adoquín,700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+85,0,0,85,35,Grava cat. 2,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.1,silca
+85,0,0,85,35,Grava cat. 3,700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.75,silca
+85,0,0,85,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+85,0,0,85,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,46.0,47.5,3.2,3.25,silca
+85,0,0,85,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,44.0,45.0,3.0,3.1,silca
+85,0,0,85,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+85,0,0,85,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+85,0,0,85,38,Adoquín,700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+85,0,0,85,38,Grava cat. 2,700C,Road,mid-range-butyl,14,38.0,39.0,2.65,2.7,silca
+85,0,0,85,38,Grava cat. 3,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+85,0,0,85,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,31.0,32.0,2.15,2.2,silca
+85,0,0,85,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+85,0,0,85,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+85,0,0,85,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+85,0,0,85,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.75,silca
+85,0,0,85,40,Adoquín,700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+85,0,0,85,40,Grava cat. 2,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.5,silca
+85,0,0,85,40,Grava cat. 3,700C,Road,mid-range-butyl,14,31.0,32.0,2.15,2.2,silca
+85,0,0,85,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,28.5,29.5,1.95,2.0,silca
+85,0,0,85,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+85,0,0,85,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.65,silca
+85,0,0,85,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+85,0,0,85,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+85,0,0,85,42,Adoquín,700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+85,0,0,85,42,Grava cat. 2,700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+85,0,0,85,42,Grava cat. 3,700C,Road,mid-range-butyl,14,29.0,29.5,2.0,2.05,silca
+85,0,0,85,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,26.5,27.0,1.8,1.85,silca
+85,0,0,85,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.45,silca
+85,0,0,85,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+85,0,0,85,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,30.5,31.0,2.1,2.15,silca
+85,0,0,85,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+85,0,0,85,45,Adoquín,700C,Road,mid-range-butyl,14,27.0,28.0,1.85,1.9,silca
+85,0,0,85,45,Grava cat. 2,700C,Road,mid-range-butyl,14,29.0,29.5,2.0,2.05,silca
+85,0,0,85,45,Grava cat. 3,700C,Road,mid-range-butyl,14,25.5,26.5,1.75,1.8,silca
+85,0,0,85,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,23.5,24.0,1.6,1.65,silca
+85,0,0,85,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,29.0,29.5,2.0,2.05,silca
+85,0,0,85,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+85,0,0,85,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,25.0,26.0,1.75,1.8,silca
+85,0,0,85,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,26.0,27.0,1.8,1.85,silca
+85,0,0,85,50,Adoquín,700C,Road,mid-range-butyl,14,22.5,23.0,1.55,1.6,silca
+85,0,0,85,50,Grava cat. 2,700C,Road,mid-range-butyl,14,24.0,24.5,1.65,1.7,silca
+85,0,0,85,50,Grava cat. 3,700C,Road,mid-range-butyl,14,21.0,21.5,1.45,1.5,silca
+85,0,0,85,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,19.5,20.0,1.35,1.35,silca
+90,0,0,90,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,68.0,69.5,4.7,4.8,silca
+90,0,0,90,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,64.5,66.0,4.45,4.55,silca
+90,0,0,90,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,59.5,61.0,4.1,4.2,silca
+90,0,0,90,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,62.0,63.5,4.25,4.35,silca
+90,0,0,90,30,Adoquín,700C,Road,mid-range-butyl,14,53.0,54.5,3.65,3.75,silca
+90,0,0,90,30,Grava cat. 2,700C,Road,mid-range-butyl,14,56.5,57.5,3.9,4.0,silca
+90,0,0,90,30,Grava cat. 3,700C,Road,mid-range-butyl,14,50.0,51.5,3.45,3.55,silca
+90,0,0,90,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,46.0,47.0,3.15,3.25,silca
+90,0,0,90,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,61.5,63.0,4.25,4.35,silca
+90,0,0,90,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,58.0,59.5,4.0,4.1,silca
+90,0,0,90,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,53.5,55.0,3.7,3.8,silca
+90,0,0,90,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,56.0,57.0,3.85,3.95,silca
+90,0,0,90,32,Adoquín,700C,Road,mid-range-butyl,14,48.0,49.0,3.3,3.4,silca
+90,0,0,90,32,Grava cat. 2,700C,Road,mid-range-butyl,14,51.0,52.0,3.5,3.6,silca
+90,0,0,90,32,Grava cat. 3,700C,Road,mid-range-butyl,14,45.0,46.5,3.1,3.2,silca
+90,0,0,90,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+90,0,0,90,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,53.0,54.5,3.65,3.75,silca
+90,0,0,90,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,50.5,52.0,3.5,3.55,silca
+90,0,0,90,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,46.5,47.5,3.2,3.3,silca
+90,0,0,90,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.4,silca
+90,0,0,90,35,Adoquín,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+90,0,0,90,35,Grava cat. 2,700C,Road,mid-range-butyl,14,44.0,45.0,3.05,3.1,silca
+90,0,0,90,35,Grava cat. 3,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+90,0,0,90,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+90,0,0,90,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,46.5,48.0,3.2,3.3,silca
+90,0,0,90,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,44.0,45.5,3.05,3.15,silca
+90,0,0,90,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.9,silca
+90,0,0,90,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,42.5,43.5,2.9,3.0,silca
+90,0,0,90,38,Adoquín,700C,Road,mid-range-butyl,14,36.5,37.5,2.5,2.55,silca
+90,0,0,90,38,Grava cat. 2,700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.75,silca
+90,0,0,90,38,Grava cat. 3,700C,Road,mid-range-butyl,14,34.5,35.0,2.35,2.45,silca
+90,0,0,90,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,31.5,32.5,2.15,2.25,silca
+90,0,0,90,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+90,0,0,90,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.9,silca
+90,0,0,90,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+90,0,0,90,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+90,0,0,90,40,Adoquín,700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.35,silca
+90,0,0,90,40,Grava cat. 2,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+90,0,0,90,40,Grava cat. 3,700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+90,0,0,90,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,29.0,30.0,2.0,2.05,silca
+90,0,0,90,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,39.5,40.5,2.75,2.8,silca
+90,0,0,90,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+90,0,0,90,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+90,0,0,90,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+90,0,0,90,42,Adoquín,700C,Road,mid-range-butyl,14,31.0,31.5,2.15,2.2,silca
+90,0,0,90,42,Grava cat. 2,700C,Road,mid-range-butyl,14,33.0,33.5,2.25,2.3,silca
+90,0,0,90,42,Grava cat. 3,700C,Road,mid-range-butyl,14,29.0,30.0,2.0,2.05,silca
+90,0,0,90,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,27.0,27.5,1.85,1.9,silca
+90,0,0,90,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,35.5,36.0,2.45,2.5,silca
+90,0,0,90,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.35,silca
+90,0,0,90,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+90,0,0,90,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,32.0,33.0,2.2,2.25,silca
+90,0,0,90,45,Adoquín,700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+90,0,0,90,45,Grava cat. 2,700C,Road,mid-range-butyl,14,29.0,30.0,2.0,2.05,silca
+90,0,0,90,45,Grava cat. 3,700C,Road,mid-range-butyl,14,26.0,26.5,1.8,1.85,silca
+90,0,0,90,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,24.0,24.5,1.65,1.7,silca
+90,0,0,90,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,29.0,30.0,2.0,2.05,silca
+90,0,0,90,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,27.5,28.5,1.9,1.95,silca
+90,0,0,90,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,25.5,26.0,1.75,1.8,silca
+90,0,0,90,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,26.5,27.0,1.85,1.85,silca
+90,0,0,90,50,Adoquín,700C,Road,mid-range-butyl,14,22.5,23.5,1.55,1.6,silca
+90,0,0,90,50,Grava cat. 2,700C,Road,mid-range-butyl,14,24.0,24.5,1.65,1.7,silca
+90,0,0,90,50,Grava cat. 3,700C,Road,mid-range-butyl,14,21.5,22.0,1.5,1.5,silca
+90,0,0,90,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,19.5,20.0,1.35,1.4,silca
+95,0,0,95,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,68.5,70.5,4.75,4.85,silca
+95,0,0,95,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,65.0,67.0,4.5,4.6,silca
+95,0,0,95,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,60.0,61.5,4.15,4.25,silca
+95,0,0,95,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,62.5,64.0,4.3,4.4,silca
+95,0,0,95,30,Adoquín,700C,Road,mid-range-butyl,14,53.5,55.0,3.7,3.8,silca
+95,0,0,95,30,Grava cat. 2,700C,Road,mid-range-butyl,14,57.0,58.5,3.9,4.0,silca
+95,0,0,95,30,Grava cat. 3,700C,Road,mid-range-butyl,14,50.5,52.0,3.5,3.6,silca
+95,0,0,95,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,46.5,48.0,3.2,3.3,silca
+95,0,0,95,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,62.0,63.5,4.25,4.4,silca
+95,0,0,95,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,59.0,60.5,4.05,4.15,silca
+95,0,0,95,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,54.0,55.5,3.75,3.8,silca
+95,0,0,95,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,56.5,58.0,3.9,4.0,silca
+95,0,0,95,32,Adoquín,700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.4,silca
+95,0,0,95,32,Grava cat. 2,700C,Road,mid-range-butyl,14,51.5,52.5,3.55,3.65,silca
+95,0,0,95,32,Grava cat. 3,700C,Road,mid-range-butyl,14,46.0,47.0,3.15,3.25,silca
+95,0,0,95,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+95,0,0,95,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,53.5,55.0,3.7,3.8,silca
+95,0,0,95,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,51.0,52.0,3.5,3.6,silca
+95,0,0,95,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,47.0,48.0,3.25,3.3,silca
+95,0,0,95,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,49.0,50.0,3.35,3.45,silca
+95,0,0,95,35,Adoquín,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+95,0,0,95,35,Grava cat. 2,700C,Road,mid-range-butyl,14,44.5,45.5,3.05,3.15,silca
+95,0,0,95,35,Grava cat. 3,700C,Road,mid-range-butyl,14,39.5,40.5,2.75,2.8,silca
+95,0,0,95,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,36.5,37.5,2.5,2.6,silca
+95,0,0,95,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,47.0,48.5,3.25,3.35,silca
+95,0,0,95,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,44.5,46.0,3.1,3.15,silca
+95,0,0,95,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+95,0,0,95,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+95,0,0,95,38,Adoquín,700C,Road,mid-range-butyl,14,37.0,37.5,2.55,2.6,silca
+95,0,0,95,38,Grava cat. 2,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+95,0,0,95,38,Grava cat. 3,700C,Road,mid-range-butyl,14,35.0,35.5,2.4,2.45,silca
+95,0,0,95,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,32.0,33.0,2.2,2.25,silca
+95,0,0,95,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.05,silca
+95,0,0,95,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+95,0,0,95,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,38.0,39.0,2.6,2.65,silca
+95,0,0,95,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+95,0,0,95,40,Adoquín,700C,Road,mid-range-butyl,14,34.0,34.5,2.35,2.4,silca
+95,0,0,95,40,Grava cat. 2,700C,Road,mid-range-butyl,14,36.0,37.0,2.45,2.55,silca
+95,0,0,95,40,Grava cat. 3,700C,Road,mid-range-butyl,14,32.0,33.0,2.2,2.25,silca
+95,0,0,95,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,29.5,30.0,2.05,2.1,silca
+95,0,0,95,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.85,silca
+95,0,0,95,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,38.0,39.0,2.6,2.7,silca
+95,0,0,95,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.45,silca
+95,0,0,95,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,36.5,37.5,2.5,2.55,silca
+95,0,0,95,42,Adoquín,700C,Road,mid-range-butyl,14,31.0,32.0,2.15,2.2,silca
+95,0,0,95,42,Grava cat. 2,700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+95,0,0,95,42,Grava cat. 3,700C,Road,mid-range-butyl,14,29.5,30.5,2.05,2.1,silca
+95,0,0,95,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,27.0,28.0,1.85,1.9,silca
+95,0,0,95,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+95,0,0,95,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,34.0,34.5,2.35,2.4,silca
+95,0,0,95,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,31.0,32.0,2.15,2.2,silca
+95,0,0,95,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+95,0,0,95,45,Adoquín,700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+95,0,0,95,45,Grava cat. 2,700C,Road,mid-range-butyl,14,29.5,30.0,2.05,2.1,silca
+95,0,0,95,45,Grava cat. 3,700C,Road,mid-range-butyl,14,26.5,27.0,1.8,1.85,silca
+95,0,0,95,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,24.0,25.0,1.65,1.7,silca
+95,0,0,95,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,29.5,30.0,2.05,2.1,silca
+95,0,0,95,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+95,0,0,95,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,25.5,26.5,1.75,1.8,silca
+95,0,0,95,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,26.5,27.5,1.85,1.9,silca
+95,0,0,95,50,Adoquín,700C,Road,mid-range-butyl,14,23.0,23.5,1.6,1.6,silca
+95,0,0,95,50,Grava cat. 2,700C,Road,mid-range-butyl,14,24.5,25.0,1.7,1.7,silca
+95,0,0,95,50,Grava cat. 3,700C,Road,mid-range-butyl,14,21.5,22.5,1.5,1.55,silca
+95,0,0,95,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,20.0,20.5,1.4,1.4,silca
+100,0,0,100,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,69.0,71.0,4.75,4.9,silca
+100,0,0,100,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,65.5,67.5,4.55,4.65,silca
+100,0,0,100,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,60.5,62.0,4.15,4.3,silca
+100,0,0,100,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,63.0,64.5,4.35,4.45,silca
+100,0,0,100,30,Adoquín,700C,Road,mid-range-butyl,14,54.0,55.5,3.75,3.85,silca
+100,0,0,100,30,Grava cat. 2,700C,Road,mid-range-butyl,14,57.5,59.0,3.95,4.05,silca
+100,0,0,100,30,Grava cat. 3,700C,Road,mid-range-butyl,14,51.5,52.5,3.55,3.65,silca
+100,0,0,100,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,47.0,48.5,3.25,3.35,silca
+100,0,0,100,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,62.5,64.0,4.3,4.4,silca
+100,0,0,100,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,59.5,61.0,4.1,4.2,silca
+100,0,0,100,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,54.5,56.0,3.75,3.85,silca
+100,0,0,100,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,57.0,58.5,3.9,4.0,silca
+100,0,0,100,32,Adoquín,700C,Road,mid-range-butyl,14,49.0,50.0,3.35,3.45,silca
+100,0,0,100,32,Grava cat. 2,700C,Road,mid-range-butyl,14,52.0,53.0,3.6,3.65,silca
+100,0,0,100,32,Grava cat. 3,700C,Road,mid-range-butyl,14,46.5,47.5,3.2,3.25,silca
+100,0,0,100,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+100,0,0,100,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,54.0,55.5,3.75,3.85,silca
+100,0,0,100,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,51.5,52.5,3.55,3.65,silca
+100,0,0,100,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,47.5,48.5,3.25,3.35,silca
+100,0,0,100,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,49.5,50.5,3.4,3.5,silca
+100,0,0,100,35,Adoquín,700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+100,0,0,100,35,Grava cat. 2,700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.2,silca
+100,0,0,100,35,Grava cat. 3,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.85,silca
+100,0,0,100,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+100,0,0,100,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,47.5,48.5,3.25,3.35,silca
+100,0,0,100,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.2,silca
+100,0,0,100,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+100,0,0,100,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,43.0,44.5,3.0,3.05,silca
+100,0,0,100,38,Adoquín,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.65,silca
+100,0,0,100,38,Grava cat. 2,700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+100,0,0,100,38,Grava cat. 3,700C,Road,mid-range-butyl,14,35.0,36.0,2.45,2.5,silca
+100,0,0,100,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+100,0,0,100,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,43.5,45.0,3.0,3.1,silca
+100,0,0,100,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+100,0,0,100,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,38.0,39.0,2.65,2.7,silca
+100,0,0,100,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.8,silca
+100,0,0,100,40,Adoquín,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+100,0,0,100,40,Grava cat. 2,700C,Road,mid-range-butyl,14,36.5,37.0,2.5,2.55,silca
+100,0,0,100,40,Grava cat. 3,700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+100,0,0,100,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+100,0,0,100,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+100,0,0,100,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,38.5,39.0,2.65,2.7,silca
+100,0,0,100,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,35.0,36.0,2.45,2.5,silca
+100,0,0,100,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,36.5,37.5,2.55,2.6,silca
+100,0,0,100,42,Adoquín,700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+100,0,0,100,42,Grava cat. 2,700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.35,silca
+100,0,0,100,42,Grava cat. 3,700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+100,0,0,100,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+100,0,0,100,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,36.0,37.0,2.45,2.55,silca
+100,0,0,100,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+100,0,0,100,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,31.5,32.0,2.15,2.2,silca
+100,0,0,100,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,32.5,33.5,2.25,2.3,silca
+100,0,0,100,45,Adoquín,700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+100,0,0,100,45,Grava cat. 2,700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+100,0,0,100,45,Grava cat. 3,700C,Road,mid-range-butyl,14,26.5,27.5,1.85,1.9,silca
+100,0,0,100,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,24.5,25.0,1.7,1.75,silca
+100,0,0,100,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,29.5,30.5,2.05,2.1,silca
+100,0,0,100,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+100,0,0,100,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,26.0,26.5,1.8,1.85,silca
+100,0,0,100,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,27.0,27.5,1.85,1.9,silca
+100,0,0,100,50,Adoquín,700C,Road,mid-range-butyl,14,23.0,24.0,1.6,1.65,silca
+100,0,0,100,50,Grava cat. 2,700C,Road,mid-range-butyl,14,24.5,25.0,1.7,1.75,silca
+100,0,0,100,50,Grava cat. 3,700C,Road,mid-range-butyl,14,22.0,22.5,1.5,1.55,silca
+100,0,0,100,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,20.0,20.5,1.4,1.45,silca
+105,0,0,105,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,70.0,71.5,4.8,4.95,silca
+105,0,0,105,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,66.5,68.0,4.55,4.7,silca
+105,0,0,105,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,61.0,62.5,4.2,4.3,silca
+105,0,0,105,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,63.5,65.5,4.4,4.5,silca
+105,0,0,105,30,Adoquín,700C,Road,mid-range-butyl,14,55.0,56.0,3.8,3.9,silca
+105,0,0,105,30,Grava cat. 2,700C,Road,mid-range-butyl,14,58.0,59.5,4.0,4.1,silca
+105,0,0,105,30,Grava cat. 3,700C,Road,mid-range-butyl,14,52.0,53.0,3.6,3.65,silca
+105,0,0,105,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,48.0,49.0,3.3,3.4,silca
+105,0,0,105,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,63.0,64.5,4.35,4.45,silca
+105,0,0,105,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,60.0,61.5,4.15,4.25,silca
+105,0,0,105,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,55.0,56.5,3.8,3.9,silca
+105,0,0,105,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,57.5,59.0,3.95,4.05,silca
+105,0,0,105,32,Adoquín,700C,Road,mid-range-butyl,14,49.5,50.5,3.4,3.5,silca
+105,0,0,105,32,Grava cat. 2,700C,Road,mid-range-butyl,14,52.5,54.0,3.6,3.7,silca
+105,0,0,105,32,Grava cat. 3,700C,Road,mid-range-butyl,14,47.0,48.0,3.25,3.3,silca
+105,0,0,105,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,43.0,44.0,3.0,3.05,silca
+105,0,0,105,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,54.5,56.0,3.75,3.85,silca
+105,0,0,105,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,52.0,53.0,3.6,3.65,silca
+105,0,0,105,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,48.0,49.0,3.3,3.4,silca
+105,0,0,105,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,50.0,51.0,3.45,3.5,silca
+105,0,0,105,35,Adoquín,700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+105,0,0,105,35,Grava cat. 2,700C,Road,mid-range-butyl,14,45.5,46.5,3.15,3.2,silca
+105,0,0,105,35,Grava cat. 3,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+105,0,0,105,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+105,0,0,105,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,48.0,49.0,3.3,3.4,silca
+105,0,0,105,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,45.5,46.5,3.15,3.2,silca
+105,0,0,105,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+105,0,0,105,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,43.5,45.0,3.0,3.1,silca
+105,0,0,105,38,Adoquín,700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+105,0,0,105,38,Grava cat. 2,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.8,silca
+105,0,0,105,38,Grava cat. 3,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+105,0,0,105,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,33.0,33.5,2.25,2.3,silca
+105,0,0,105,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,44.0,45.0,3.05,3.1,silca
+105,0,0,105,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+105,0,0,105,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.75,silca
+105,0,0,105,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.85,silca
+105,0,0,105,40,Adoquín,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+105,0,0,105,40,Grava cat. 2,700C,Road,mid-range-butyl,14,36.5,37.5,2.55,2.6,silca
+105,0,0,105,40,Grava cat. 3,700C,Road,mid-range-butyl,14,33.0,33.5,2.25,2.3,silca
+105,0,0,105,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,30.0,31.0,2.1,2.15,silca
+105,0,0,105,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.9,silca
+105,0,0,105,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.75,silca
+105,0,0,105,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+105,0,0,105,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+105,0,0,105,42,Adoquín,700C,Road,mid-range-butyl,14,32.0,32.5,2.2,2.25,silca
+105,0,0,105,42,Grava cat. 2,700C,Road,mid-range-butyl,14,34.0,34.5,2.35,2.4,silca
+105,0,0,105,42,Grava cat. 3,700C,Road,mid-range-butyl,14,30.0,31.0,2.1,2.15,silca
+105,0,0,105,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+105,0,0,105,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+105,0,0,105,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,34.5,35.5,2.35,2.45,silca
+105,0,0,105,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+105,0,0,105,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+105,0,0,105,45,Adoquín,700C,Road,mid-range-butyl,14,28.5,29.0,1.95,2.0,silca
+105,0,0,105,45,Grava cat. 2,700C,Road,mid-range-butyl,14,30.0,31.0,2.1,2.15,silca
+105,0,0,105,45,Grava cat. 3,700C,Road,mid-range-butyl,14,27.0,27.5,1.85,1.9,silca
+105,0,0,105,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,25.0,25.5,1.7,1.75,silca
+105,0,0,105,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,30.0,30.5,2.05,2.1,silca
+105,0,0,105,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,28.5,29.0,1.95,2.0,silca
+105,0,0,105,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,26.0,27.0,1.8,1.85,silca
+105,0,0,105,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+105,0,0,105,50,Adoquín,700C,Road,mid-range-butyl,14,23.5,24.0,1.6,1.65,silca
+105,0,0,105,50,Grava cat. 2,700C,Road,mid-range-butyl,14,25.0,25.5,1.7,1.75,silca
+105,0,0,105,50,Grava cat. 3,700C,Road,mid-range-butyl,14,22.0,23.0,1.55,1.55,silca
+105,0,0,105,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,20.5,21.0,1.4,1.45,silca
+110,0,0,110,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,70.5,72.0,4.85,5.0,silca
+110,0,0,110,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,67.0,68.5,4.6,4.75,silca
+110,0,0,110,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,61.5,63.5,4.25,4.35,silca
+110,0,0,110,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,64.5,66.0,4.45,4.55,silca
+110,0,0,110,30,Adoquín,700C,Road,mid-range-butyl,14,55.5,57.0,3.8,3.9,silca
+110,0,0,110,30,Grava cat. 2,700C,Road,mid-range-butyl,14,58.5,60.0,4.05,4.15,silca
+110,0,0,110,30,Grava cat. 3,700C,Road,mid-range-butyl,14,52.5,54.0,3.6,3.7,silca
+110,0,0,110,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.4,silca
+110,0,0,110,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,63.5,65.0,4.4,4.5,silca
+110,0,0,110,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,60.5,62.0,4.15,4.25,silca
+110,0,0,110,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,55.5,57.0,3.85,3.95,silca
+110,0,0,110,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,58.0,59.5,4.0,4.1,silca
+110,0,0,110,32,Adoquín,700C,Road,mid-range-butyl,14,50.0,51.5,3.45,3.55,silca
+110,0,0,110,32,Grava cat. 2,700C,Road,mid-range-butyl,14,53.0,54.5,3.65,3.75,silca
+110,0,0,110,32,Grava cat. 3,700C,Road,mid-range-butyl,14,47.5,48.5,3.25,3.35,silca
+110,0,0,110,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,43.5,45.0,3.0,3.1,silca
+110,0,0,110,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,55.0,56.5,3.8,3.9,silca
+110,0,0,110,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,52.5,53.5,3.6,3.7,silca
+110,0,0,110,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.4,silca
+110,0,0,110,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,50.5,51.5,3.45,3.55,silca
+110,0,0,110,35,Adoquín,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.05,silca
+110,0,0,110,35,Grava cat. 2,700C,Road,mid-range-butyl,14,46.0,47.0,3.15,3.25,silca
+110,0,0,110,35,Grava cat. 3,700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+110,0,0,110,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,38.0,39.0,2.6,2.7,silca
+110,0,0,110,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.4,silca
+110,0,0,110,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,46.0,47.0,3.15,3.25,silca
+110,0,0,110,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,42.5,43.5,2.9,3.0,silca
+110,0,0,110,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,44.0,45.0,3.05,3.1,silca
+110,0,0,110,38,Adoquín,700C,Road,mid-range-butyl,14,38.0,39.0,2.6,2.7,silca
+110,0,0,110,38,Grava cat. 2,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+110,0,0,110,38,Grava cat. 3,700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+110,0,0,110,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+110,0,0,110,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,44.5,45.5,3.05,3.15,silca
+110,0,0,110,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,42.0,43.5,2.9,3.0,silca
+110,0,0,110,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+110,0,0,110,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.85,silca
+110,0,0,110,40,Adoquín,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.45,silca
+110,0,0,110,40,Grava cat. 2,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+110,0,0,110,40,Grava cat. 3,700C,Road,mid-range-butyl,14,33.0,34.0,2.3,2.35,silca
+110,0,0,110,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+110,0,0,110,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+110,0,0,110,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+110,0,0,110,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+110,0,0,110,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+110,0,0,110,42,Adoquín,700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+110,0,0,110,42,Grava cat. 2,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+110,0,0,110,42,Grava cat. 3,700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+110,0,0,110,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+110,0,0,110,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,36.5,37.5,2.5,2.6,silca
+110,0,0,110,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+110,0,0,110,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,32.0,33.0,2.2,2.25,silca
+110,0,0,110,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,33.5,34.0,2.3,2.35,silca
+110,0,0,110,45,Adoquín,700C,Road,mid-range-butyl,14,28.5,29.5,2.0,2.05,silca
+110,0,0,110,45,Grava cat. 2,700C,Road,mid-range-butyl,14,30.5,31.0,2.1,2.15,silca
+110,0,0,110,45,Grava cat. 3,700C,Road,mid-range-butyl,14,27.0,28.0,1.9,1.9,silca
+110,0,0,110,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,25.0,25.5,1.75,1.75,silca
+110,0,0,110,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,30.0,31.0,2.1,2.15,silca
+110,0,0,110,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,28.5,29.5,2.0,2.05,silca
+110,0,0,110,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,26.5,27.0,1.8,1.85,silca
+110,0,0,110,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+110,0,0,110,50,Adoquín,700C,Road,mid-range-butyl,14,23.5,24.5,1.65,1.7,silca
+110,0,0,110,50,Grava cat. 2,700C,Road,mid-range-butyl,14,25.0,26.0,1.75,1.8,silca
+110,0,0,110,50,Grava cat. 3,700C,Road,mid-range-butyl,14,22.5,23.0,1.55,1.6,silca
+110,0,0,110,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,20.5,21.5,1.45,1.45,silca
+115,0,0,115,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,71.0,73.0,4.9,5.0,silca
+115,0,0,115,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,67.5,69.5,4.65,4.75,silca
+115,0,0,115,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,62.5,64.0,4.3,4.4,silca
+115,0,0,115,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,65.0,66.5,4.45,4.6,silca
+115,0,0,115,30,Adoquín,700C,Road,mid-range-butyl,14,56.0,57.5,3.85,3.95,silca
+115,0,0,115,30,Grava cat. 2,700C,Road,mid-range-butyl,14,59.5,61.0,4.1,4.2,silca
+115,0,0,115,30,Grava cat. 3,700C,Road,mid-range-butyl,14,53.0,54.5,3.65,3.75,silca
+115,0,0,115,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,49.0,50.5,3.4,3.45,silca
+115,0,0,115,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,64.0,66.0,4.4,4.55,silca
+115,0,0,115,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,61.0,62.5,4.2,4.3,silca
+115,0,0,115,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,56.5,57.5,3.9,4.0,silca
+115,0,0,115,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,58.5,60.0,4.05,4.15,silca
+115,0,0,115,32,Adoquín,700C,Road,mid-range-butyl,14,50.5,52.0,3.5,3.6,silca
+115,0,0,115,32,Grava cat. 2,700C,Road,mid-range-butyl,14,53.5,55.0,3.7,3.8,silca
+115,0,0,115,32,Grava cat. 3,700C,Road,mid-range-butyl,14,48.0,49.0,3.3,3.4,silca
+115,0,0,115,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,44.0,45.5,3.05,3.15,silca
+115,0,0,115,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,55.5,57.0,3.85,3.95,silca
+115,0,0,115,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,53.0,54.0,3.65,3.75,silca
+115,0,0,115,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,49.0,50.0,3.35,3.45,silca
+115,0,0,115,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,51.0,52.0,3.5,3.6,silca
+115,0,0,115,35,Adoquín,700C,Road,mid-range-butyl,14,44.0,45.0,3.0,3.1,silca
+115,0,0,115,35,Grava cat. 2,700C,Road,mid-range-butyl,14,46.5,47.5,3.2,3.3,silca
+115,0,0,115,35,Grava cat. 3,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+115,0,0,115,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.7,silca
+115,0,0,115,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,48.5,50.0,3.35,3.45,silca
+115,0,0,115,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,46.5,47.5,3.2,3.25,silca
+115,0,0,115,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,42.5,44.0,2.95,3.0,silca
+115,0,0,115,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,44.5,45.5,3.05,3.15,silca
+115,0,0,115,38,Adoquín,700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.7,silca
+115,0,0,115,38,Grava cat. 2,700C,Road,mid-range-butyl,14,40.5,41.5,2.8,2.9,silca
+115,0,0,115,38,Grava cat. 3,700C,Road,mid-range-butyl,14,36.5,37.5,2.5,2.6,silca
+115,0,0,115,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.4,silca
+115,0,0,115,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.15,silca
+115,0,0,115,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+115,0,0,115,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+115,0,0,115,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,41.0,42.0,2.8,2.9,silca
+115,0,0,115,40,Adoquín,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+115,0,0,115,40,Grava cat. 2,700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+115,0,0,115,40,Grava cat. 3,700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.35,silca
+115,0,0,115,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,31.0,31.5,2.15,2.2,silca
+115,0,0,115,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+115,0,0,115,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+115,0,0,115,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,36.5,37.0,2.5,2.55,silca
+115,0,0,115,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,38.0,38.5,2.6,2.65,silca
+115,0,0,115,42,Adoquín,700C,Road,mid-range-butyl,14,32.5,33.5,2.25,2.3,silca
+115,0,0,115,42,Grava cat. 2,700C,Road,mid-range-butyl,14,34.5,35.5,2.4,2.45,silca
+115,0,0,115,42,Grava cat. 3,700C,Road,mid-range-butyl,14,31.0,31.5,2.15,2.2,silca
+115,0,0,115,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,28.5,29.5,1.95,2.0,silca
+115,0,0,115,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+115,0,0,115,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.45,silca
+115,0,0,115,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,32.5,33.0,2.25,2.3,silca
+115,0,0,115,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,33.5,34.5,2.3,2.4,silca
+115,0,0,115,45,Adoquín,700C,Road,mid-range-butyl,14,29.0,30.0,2.0,2.05,silca
+115,0,0,115,45,Grava cat. 2,700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+115,0,0,115,45,Grava cat. 3,700C,Road,mid-range-butyl,14,27.5,28.0,1.9,1.95,silca
+115,0,0,115,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,25.5,26.0,1.75,1.8,silca
+115,0,0,115,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,30.5,31.0,2.1,2.15,silca
+115,0,0,115,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,29.0,29.5,2.0,2.05,silca
+115,0,0,115,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,26.5,27.5,1.85,1.9,silca
+115,0,0,115,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+115,0,0,115,50,Adoquín,700C,Road,mid-range-butyl,14,24.0,24.5,1.65,1.7,silca
+115,0,0,115,50,Grava cat. 2,700C,Road,mid-range-butyl,14,25.5,26.0,1.75,1.8,silca
+115,0,0,115,50,Grava cat. 3,700C,Road,mid-range-butyl,14,23.0,23.5,1.55,1.6,silca
+115,0,0,115,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,21.0,21.5,1.45,1.5,silca
+120,0,0,120,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,71.5,73.5,4.95,5.05,silca
+120,0,0,120,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,68.0,70.0,4.7,4.8,silca
+120,0,0,120,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,63.0,64.5,4.35,4.45,silca
+120,0,0,120,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,65.5,67.0,4.5,4.65,silca
+120,0,0,120,30,Adoquín,700C,Road,mid-range-butyl,14,56.5,58.0,3.9,4.0,silca
+120,0,0,120,30,Grava cat. 2,700C,Road,mid-range-butyl,14,60.0,61.5,4.15,4.25,silca
+120,0,0,120,30,Grava cat. 3,700C,Road,mid-range-butyl,14,53.5,55.0,3.7,3.8,silca
+120,0,0,120,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,49.5,51.0,3.4,3.5,silca
+120,0,0,120,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,64.5,66.5,4.45,4.55,silca
+120,0,0,120,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,61.5,63.0,4.25,4.35,silca
+120,0,0,120,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,57.0,58.0,3.9,4.0,silca
+120,0,0,120,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,59.0,60.5,4.05,4.2,silca
+120,0,0,120,32,Adoquín,700C,Road,mid-range-butyl,14,51.0,52.5,3.55,3.6,silca
+120,0,0,120,32,Grava cat. 2,700C,Road,mid-range-butyl,14,54.0,55.5,3.75,3.8,silca
+120,0,0,120,32,Grava cat. 3,700C,Road,mid-range-butyl,14,48.5,49.5,3.35,3.45,silca
+120,0,0,120,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.15,silca
+120,0,0,120,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,56.0,57.5,3.85,3.95,silca
+120,0,0,120,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,53.5,54.5,3.7,3.75,silca
+120,0,0,120,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,49.0,50.5,3.4,3.5,silca
+120,0,0,120,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,51.0,52.5,3.55,3.6,silca
+120,0,0,120,35,Adoquín,700C,Road,mid-range-butyl,14,44.5,45.5,3.05,3.15,silca
+120,0,0,120,35,Grava cat. 2,700C,Road,mid-range-butyl,14,47.0,48.0,3.25,3.3,silca
+120,0,0,120,35,Grava cat. 3,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+120,0,0,120,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+120,0,0,120,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,49.0,50.5,3.4,3.45,silca
+120,0,0,120,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,46.5,48.0,3.2,3.3,silca
+120,0,0,120,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,43.0,44.5,3.0,3.05,silca
+120,0,0,120,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.15,silca
+120,0,0,120,38,Adoquín,700C,Road,mid-range-butyl,14,39.0,40.0,2.7,2.75,silca
+120,0,0,120,38,Grava cat. 2,700C,Road,mid-range-butyl,14,41.0,42.0,2.85,2.9,silca
+120,0,0,120,38,Grava cat. 3,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+120,0,0,120,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+120,0,0,120,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,45.0,46.5,3.1,3.2,silca
+120,0,0,120,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,43.0,44.0,2.95,3.05,silca
+120,0,0,120,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,39.5,40.5,2.75,2.8,silca
+120,0,0,120,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.9,silca
+120,0,0,120,40,Adoquín,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.55,silca
+120,0,0,120,40,Grava cat. 2,700C,Road,mid-range-butyl,14,38.0,39.0,2.6,2.65,silca
+120,0,0,120,40,Grava cat. 3,700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+120,0,0,120,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,31.5,32.0,2.15,2.2,silca
+120,0,0,120,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,41.5,43.0,2.9,2.95,silca
+120,0,0,120,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,39.5,40.5,2.75,2.8,silca
+120,0,0,120,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,36.5,37.5,2.55,2.6,silca
+120,0,0,120,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,38.0,39.0,2.65,2.7,silca
+120,0,0,120,42,Adoquín,700C,Road,mid-range-butyl,14,33.0,34.0,2.25,2.35,silca
+120,0,0,120,42,Grava cat. 2,700C,Road,mid-range-butyl,14,35.0,36.0,2.4,2.45,silca
+120,0,0,120,42,Grava cat. 3,700C,Road,mid-range-butyl,14,31.5,32.0,2.15,2.2,silca
+120,0,0,120,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,29.0,29.5,2.0,2.05,silca
+120,0,0,120,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.65,silca
+120,0,0,120,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,35.5,36.0,2.45,2.5,silca
+120,0,0,120,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,32.5,33.5,2.25,2.3,silca
+120,0,0,120,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,34.0,35.0,2.35,2.4,silca
+120,0,0,120,45,Adoquín,700C,Road,mid-range-butyl,14,29.5,30.0,2.0,2.1,silca
+120,0,0,120,45,Grava cat. 2,700C,Road,mid-range-butyl,14,31.0,32.0,2.15,2.2,silca
+120,0,0,120,45,Grava cat. 3,700C,Road,mid-range-butyl,14,28.0,28.5,1.9,1.95,silca
+120,0,0,120,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,25.5,26.5,1.75,1.8,silca
+120,0,0,120,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,30.5,31.5,2.1,2.15,silca
+120,0,0,120,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,29.0,30.0,2.0,2.05,silca
+120,0,0,120,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,27.0,27.5,1.85,1.9,silca
+120,0,0,120,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+120,0,0,120,50,Adoquín,700C,Road,mid-range-butyl,14,24.5,25.0,1.65,1.7,silca
+120,0,0,120,50,Grava cat. 2,700C,Road,mid-range-butyl,14,25.5,26.5,1.75,1.8,silca
+120,0,0,120,50,Grava cat. 3,700C,Road,mid-range-butyl,14,23.0,23.5,1.6,1.65,silca
+120,0,0,120,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,21.5,22.0,1.45,1.5,silca
+125,0,0,125,30,Asfalto nuevo,700C,Road,mid-range-butyl,14,72.5,74.0,5.0,5.1,silca
+125,0,0,125,30,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,68.5,70.5,4.75,4.85,silca
+125,0,0,125,30,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,63.5,65.0,4.4,4.5,silca
+125,0,0,125,30,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,66.0,68.0,4.55,4.65,silca
+125,0,0,125,30,Adoquín,700C,Road,mid-range-butyl,14,57.5,58.5,3.95,4.05,silca
+125,0,0,125,30,Grava cat. 2,700C,Road,mid-range-butyl,14,60.5,62.0,4.15,4.3,silca
+125,0,0,125,30,Grava cat. 3,700C,Road,mid-range-butyl,14,54.5,55.5,3.75,3.85,silca
+125,0,0,125,30,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,50.0,51.5,3.45,3.55,silca
+125,0,0,125,32,Asfalto nuevo,700C,Road,mid-range-butyl,14,65.0,67.0,4.5,4.6,silca
+125,0,0,125,32,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,62.0,63.5,4.3,4.4,silca
+125,0,0,125,32,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,57.5,59.0,3.95,4.05,silca
+125,0,0,125,32,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,59.5,61.0,4.1,4.2,silca
+125,0,0,125,32,Adoquín,700C,Road,mid-range-butyl,14,51.5,53.0,3.55,3.65,silca
+125,0,0,125,32,Grava cat. 2,700C,Road,mid-range-butyl,14,54.5,56.0,3.75,3.85,silca
+125,0,0,125,32,Grava cat. 3,700C,Road,mid-range-butyl,14,49.0,50.5,3.4,3.45,silca
+125,0,0,125,32,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,45.5,46.5,3.15,3.2,silca
+125,0,0,125,35,Asfalto nuevo,700C,Road,mid-range-butyl,14,56.5,58.0,3.9,4.0,silca
+125,0,0,125,35,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,54.0,55.0,3.7,3.8,silca
+125,0,0,125,35,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,49.5,51.0,3.45,3.5,silca
+125,0,0,125,35,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,51.5,53.0,3.55,3.65,silca
+125,0,0,125,35,Adoquín,700C,Road,mid-range-butyl,14,45.0,46.0,3.1,3.15,silca
+125,0,0,125,35,Grava cat. 2,700C,Road,mid-range-butyl,14,47.5,48.5,3.25,3.35,silca
+125,0,0,125,35,Grava cat. 3,700C,Road,mid-range-butyl,14,42.5,43.5,2.95,3.0,silca
+125,0,0,125,35,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+125,0,0,125,38,Asfalto nuevo,700C,Road,mid-range-butyl,14,49.5,51.0,3.4,3.5,silca
+125,0,0,125,38,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,47.0,48.5,3.25,3.35,silca
+125,0,0,125,38,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.1,silca
+125,0,0,125,38,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,45.5,46.5,3.1,3.2,silca
+125,0,0,125,38,Adoquín,700C,Road,mid-range-butyl,14,39.5,40.5,2.7,2.8,silca
+125,0,0,125,38,Grava cat. 2,700C,Road,mid-range-butyl,14,41.5,42.5,2.85,2.95,silca
+125,0,0,125,38,Grava cat. 3,700C,Road,mid-range-butyl,14,37.5,38.0,2.55,2.65,silca
+125,0,0,125,38,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,34.5,35.5,2.35,2.45,silca
+125,0,0,125,40,Asfalto nuevo,700C,Road,mid-range-butyl,14,45.5,47.0,3.15,3.2,silca
+125,0,0,125,40,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,43.5,44.5,3.0,3.05,silca
+125,0,0,125,40,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.85,silca
+125,0,0,125,40,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,41.5,43.0,2.9,2.95,silca
+125,0,0,125,40,Adoquín,700C,Road,mid-range-butyl,14,36.0,37.0,2.5,2.55,silca
+125,0,0,125,40,Grava cat. 2,700C,Road,mid-range-butyl,14,38.0,39.0,2.65,2.7,silca
+125,0,0,125,40,Grava cat. 3,700C,Road,mid-range-butyl,14,34.5,35.0,2.35,2.4,silca
+125,0,0,125,40,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+125,0,0,125,42,Asfalto nuevo,700C,Road,mid-range-butyl,14,42.0,43.0,2.9,2.95,silca
+125,0,0,125,42,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,40.0,41.0,2.75,2.85,silca
+125,0,0,125,42,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,37.0,38.0,2.55,2.6,silca
+125,0,0,125,42,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,38.5,39.5,2.65,2.7,silca
+125,0,0,125,42,Adoquín,700C,Road,mid-range-butyl,14,33.5,34.0,2.3,2.35,silca
+125,0,0,125,42,Grava cat. 2,700C,Road,mid-range-butyl,14,35.0,36.0,2.45,2.5,silca
+125,0,0,125,42,Grava cat. 3,700C,Road,mid-range-butyl,14,31.5,32.5,2.2,2.25,silca
+125,0,0,125,42,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,29.5,30.0,2.0,2.05,silca
+125,0,0,125,45,Asfalto nuevo,700C,Road,mid-range-butyl,14,37.5,38.5,2.6,2.65,silca
+125,0,0,125,45,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,35.5,36.5,2.45,2.5,silca
+125,0,0,125,45,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,33.0,34.0,2.25,2.35,silca
+125,0,0,125,45,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,34.5,35.0,2.35,2.4,silca
+125,0,0,125,45,Adoquín,700C,Road,mid-range-butyl,14,29.5,30.5,2.05,2.1,silca
+125,0,0,125,45,Grava cat. 2,700C,Road,mid-range-butyl,14,31.5,32.0,2.15,2.2,silca
+125,0,0,125,45,Grava cat. 3,700C,Road,mid-range-butyl,14,28.0,29.0,1.95,2.0,silca
+125,0,0,125,45,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,26.0,26.5,1.8,1.85,silca
+125,0,0,125,50,Asfalto nuevo,700C,Road,mid-range-butyl,14,31.0,31.5,2.15,2.2,silca
+125,0,0,125,50,Asfalto desgastado / fisuras,700C,Road,mid-range-butyl,14,29.5,30.0,2.05,2.1,silca
+125,0,0,125,50,Asfalto deteriorado / gravilla,700C,Road,mid-range-butyl,14,27.0,28.0,1.9,1.9,silca
+125,0,0,125,50,Grava cat. 1 (ligera),700C,Road,mid-range-butyl,14,28.5,29.0,1.95,2.0,silca
+125,0,0,125,50,Adoquín,700C,Road,mid-range-butyl,14,24.5,25.0,1.7,1.75,silca
+125,0,0,125,50,Grava cat. 2,700C,Road,mid-range-butyl,14,26.0,26.5,1.8,1.85,silca
+125,0,0,125,50,Grava cat. 3,700C,Road,mid-range-butyl,14,23.5,24.0,1.6,1.65,silca
+125,0,0,125,50,Grava cat. 4 (gruesa),700C,Road,mid-range-butyl,14,21.5,22.0,1.5,1.5,silca
