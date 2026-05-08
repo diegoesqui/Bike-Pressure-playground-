@@ -4,8 +4,8 @@ Parameter sweep of the Silca tire-pressure calculator.
 Writes (and resumes) data/silca_sweep.csv.
 
 Usage:
-    python -m scrape.sweep [--headless] [--speed 30] [--wheel 700c]
-                           [--bike-type Road] [--tire-type Tubeless]
+    python -m scrape.sweep [--headless] [--speed 17.5] [--diameter 622]
+                           [--tire-type mid-range-tubeless-latex] [--dist road]
 """
 
 from __future__ import annotations
@@ -24,14 +24,22 @@ FIELDNAMES = [
     "rider_kg", "bike_kg", "luggage_kg", "total_kg",
     "tire_width_mm", "surface",
     "wheel", "bike_type", "tire_type", "speed_kmh",
-    "front_psi", "rear_psi",
+    "front_psi", "rear_psi", "data_source",
 ]
 
 # Grid definition
-RIDER_KG = list(range(60, 95, 5))           # 60 65 70 75 80 85 90
-BIKE_KG = [10, 15, 20, 25]
-LUGGAGE_KG = [0, 2, 4, 6, 8, 10]
+RIDER_KG    = list(range(60, 95, 5))           # 60 65 70 75 80 85 90
+BIKE_KG     = [10, 15, 20, 25]
+LUGGAGE_KG  = [0, 2, 4, 6, 8, 10]
 TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
+
+# Diameter key → wheel label
+DIAMETER_TO_WHEEL = {
+    "622": "700C",
+    "584": "650B",
+    "559": '26"',
+    "571": "650C",
+}
 
 THROTTLE_S = 0.25
 
@@ -44,7 +52,6 @@ def row_key(row: dict) -> tuple:
         int(row["tire_width_mm"]),
         row["surface"],
         row["wheel"],
-        row["bike_type"],
         row["tire_type"],
         float(row["speed_kmh"]),
     )
@@ -64,13 +71,19 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true", default=True)
     parser.add_argument("--headed", dest="headless", action="store_false")
-    parser.add_argument("--speed", type=float, default=30.0)
-    parser.add_argument("--wheel", default="700c")
-    parser.add_argument("--bike-type", default="Road")
-    parser.add_argument("--tire-type", default="Tubeless")
+    parser.add_argument("--speed", type=float, default=17.5,
+                        help="Speed key for Silca (14, 17.5, 19.5, 21.5)")
+    parser.add_argument("--diameter", default="622",
+                        help="Tire diameter key: 622=700C, 584=650B, 559=26in, 571=650C")
+    parser.add_argument("--tire-type", default="mid-range-tubeless-latex",
+                        help="Silca tire-type option value")
+    parser.add_argument("--dist", default="road",
+                        help="Weight distribution key: road, gravel, mountain, tr-tt-track")
     args = parser.parse_args()
 
-    from scrape.silca_driver import SilcaCalculator
+    from scrape.silca_driver import SilcaCalculator, SURFACES as SILCA_SURFACES
+
+    wheel_label = DIAMETER_TO_WHEEL.get(args.diameter, args.diameter)
 
     DATA_DIR.mkdir(exist_ok=True)
     done = load_done(CSV_PATH)
@@ -83,63 +96,69 @@ def main() -> None:
         writer.writeheader()
         outfile.flush()
 
+    surface_keys = list(SILCA_SURFACES.keys())
+    print(f"Surfaces: {surface_keys}")
+
+    grid = list(itertools.product(RIDER_KG, BIKE_KG, LUGGAGE_KG, TIRE_WIDTHS_MM, surface_keys))
+    total_grid = len(grid)
+    print(f"Total grid size: {total_grid}  |  To do: {total_grid - len(done)}")
+
     with SilcaCalculator(headless=args.headless) as calc:
-        surfaces = calc.surface_options
-        if not surfaces:
-            print("ERROR: No surface options discovered. Check selectors.", file=sys.stderr)
-            sys.exit(1)
-        print(f"Surfaces found: {surfaces}")
+        for idx, (rider, bike, luggage, width, surface_key) in enumerate(grid, 1):
+            total = rider + bike + luggage
+            surface_label = SILCA_SURFACES[surface_key]
 
-        grid = list(itertools.product(RIDER_KG, BIKE_KG, LUGGAGE_KG, TIRE_WIDTHS_MM, surfaces))
-        total = len(grid)
-        print(f"Total grid size: {total}  |  To do: {total - len(done)}")
-
-        for idx, (rider, bike, luggage, width, surface) in enumerate(grid, 1):
-            key = (float(rider), float(bike), float(luggage), int(width), surface,
-                   args.wheel, args.bike_type, args.tire_type, float(args.speed))
+            key = (float(rider), float(bike), float(luggage), int(width), surface_label,
+                   wheel_label, args.tire_type, float(args.speed))
             if key in done:
                 continue
 
             try:
                 result = calc.get_pressure(
-                    rider_kg=rider, bike_kg=bike, luggage_kg=luggage,
-                    tire_width_mm=width, surface=surface,
-                    speed_kmh=args.speed, wheel=args.wheel,
-                    bike_type=args.bike_type, tire_type=args.tire_type,
+                    total_kg=total,
+                    surface_key=surface_key,
+                    tire_width_mm=width,
+                    diameter_key=args.diameter,
+                    tire_type_key=args.tire_type,
+                    speed_key=str(args.speed),
+                    dist_key=args.dist,
                 )
                 row = {
                     "rider_kg": rider,
                     "bike_kg": bike,
                     "luggage_kg": luggage,
-                    "total_kg": rider + bike + luggage,
+                    "total_kg": total,
                     "tire_width_mm": width,
-                    "surface": surface,
-                    "wheel": args.wheel,
-                    "bike_type": args.bike_type,
+                    "surface": surface_label,
+                    "wheel": wheel_label,
+                    "bike_type": "Road",
                     "tire_type": args.tire_type,
                     "speed_kmh": args.speed,
                     "front_psi": result.get("front_psi"),
                     "rear_psi": result.get("rear_psi"),
+                    "data_source": "silca",
                 }
             except Exception as e:
-                print(f"  [WARN] row {idx}/{total} failed: {e}", file=sys.stderr)
+                print(f"  [WARN] row {idx}/{total_grid} failed: {e}", file=sys.stderr)
                 row = {
                     "rider_kg": rider, "bike_kg": bike, "luggage_kg": luggage,
-                    "total_kg": rider + bike + luggage,
-                    "tire_width_mm": width, "surface": surface,
-                    "wheel": args.wheel, "bike_type": args.bike_type,
-                    "tire_type": args.tire_type, "speed_kmh": args.speed,
+                    "total_kg": total, "tire_width_mm": width,
+                    "surface": surface_label, "wheel": wheel_label,
+                    "bike_type": "Road", "tire_type": args.tire_type,
+                    "speed_kmh": args.speed,
                     "front_psi": None, "rear_psi": None,
+                    "data_source": "silca",
                 }
 
             writer.writerow(row)
             outfile.flush()
             done.add(key)
 
-            if idx % 50 == 0 or idx == total:
-                pct = 100 * idx / total
-                print(f"  {idx}/{total} ({pct:.1f}%)  last: rider={rider} bike={bike} "
-                      f"luggage={luggage} width={width} surface={surface!r} "
+            if idx % 50 == 0 or idx == total_grid:
+                pct = 100 * idx / total_grid
+                print(f"  {idx}/{total_grid} ({pct:.1f}%)  "
+                      f"rider={rider} bike={bike} luggage={luggage} "
+                      f"width={width} surface={surface_label!r} "
                       f"→ front={row['front_psi']} rear={row['rear_psi']}")
 
             time.sleep(THROTTLE_S)

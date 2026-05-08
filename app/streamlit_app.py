@@ -39,12 +39,18 @@ st.set_page_config(
 _C = 49.0
 _FRONT_SPLIT = 0.42
 _REAR_SPLIT = 0.58
+# Surface names match Silca's Spanish labels; factors approximate Silca's pressure adjustments
 _SURFACES: dict[str, float] = {
-    "Asfalto liso": 1.00,
-    "Asfalto mixto": 0.90,
-    "Gravilla compacta": 0.81,
-    "Grava ligera": 0.72,
-    "Grava / tierra": 0.63,
+    "Pista (madera interior)":          1.10,
+    "Pista (hormigón exterior)":        1.05,
+    "Asfalto nuevo":                    1.00,
+    "Asfalto desgastado / fisuras":     0.93,
+    "Asfalto deteriorado / gravilla":   0.86,
+    "Grava cat. 1 (ligera)":            0.79,
+    "Adoquín":                          0.72,
+    "Grava cat. 2":                     0.65,
+    "Grava cat. 3":                     0.58,
+    "Grava cat. 4 (gruesa)":            0.50,
 }
 _TIRE_TYPE_FACTOR = 0.90
 _SPEED_FACTOR = 0.99
