@@ -263,15 +263,66 @@ class SilcaCalculator:
         return list(SURFACES.keys())
 
     def debug_output(self) -> None:
-        """Fill a test case and show all PSI candidate elements."""
+        """Fill a test case and show ALL visible numeric elements."""
         print("Filling test case: 90 kg, new-pavement, 35mm, 700C…")
         self._fill_form(90, "new-pavement", 35)
-        candidates = self._find_psi_candidates()
-        print(f"\nFound {len(candidates)} PSI-candidate elements:")
-        for c in candidates:
-            print(f"  {c['value']:6.1f} psi  <{c['tag']}> id={c['id']!r} "
+
+        # Broad scan: any visible text node that is purely numeric (any range)
+        all_nums = self.page.evaluate("""
+            () => {
+                const results = [];
+                const walker = document.createTreeWalker(
+                    document.body, NodeFilter.SHOW_TEXT, null
+                );
+                let node;
+                while ((node = walker.nextNode())) {
+                    const t = node.textContent.trim();
+                    if (!/^\\d+(\\.\\d+)?$/.test(t)) continue;
+                    const el = node.parentElement;
+                    const rect = el.getBoundingClientRect();
+                    if (rect.width > 0 && rect.height > 0) {
+                        results.push({
+                            value: parseFloat(t),
+                            text: t,
+                            tag: el.tagName,
+                            id: el.id || '',
+                            cls: el.className || '',
+                            outerHTML: el.outerHTML.slice(0, 150),
+                        });
+                    }
+                }
+                return results;
+            }
+        """)
+        print(f"\nAll visible numeric text nodes ({len(all_nums)} total):")
+        for c in all_nums:
+            print(f"  {c['value']:8.2f}  <{c['tag']}> id={c['id']!r} "
                   f"class={c['cls']!r}")
             print(f"           {c['outerHTML']}")
+
+        # Also dump any element whose text contains a unit keyword
+        unit_hits = self.page.evaluate("""
+            () => {
+                const kw = ['psi', 'bar', 'kpa', 'front', 'rear', 'result',
+                            'pressure', 'delantera', 'trasera', 'presion', 'presión'];
+                const hits = [];
+                document.querySelectorAll('*').forEach(el => {
+                    const t = (el.textContent || '').trim().toLowerCase();
+                    if (kw.some(k => t.includes(k)) && t.length < 200) {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.width > 0 && rect.height > 0)
+                            hits.push({ tag: el.tagName, id: el.id || '',
+                                        cls: el.className || '',
+                                        text: el.textContent.trim().slice(0, 120) });
+                    }
+                });
+                return hits;
+            }
+        """)
+        print(f"\nElements containing pressure/unit keywords ({len(unit_hits)} total):")
+        for h in unit_hits[:30]:
+            print(f"  <{h['tag']}> id={h['id']!r} class={h['cls']!r}")
+            print(f"    text: {h['text']!r}")
 
 
 if __name__ == "__main__":
