@@ -48,7 +48,7 @@ SPEED_FACTOR = 0.99
 
 # Grid mirrors sweep.py — city-bike focused
 TOTAL_KG       = list(range(70, 130, 5))        # 70 75 … 125 (12 values)
-TIRE_WIDTHS_MM = [25, 28, 30, 32, 35, 38, 40, 42, 45, 50]  # 25-50mm only
+TIRE_WIDTHS_MM = [30, 32, 35, 38, 40, 42, 45, 50]          # 30-50mm (thinnest owned: 32mm)
 
 # Exclude velodrome surfaces (not relevant for city bikes)
 SURFACES = {k: v for k, v in SURFACES.items()

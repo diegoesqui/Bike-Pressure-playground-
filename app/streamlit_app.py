@@ -53,7 +53,7 @@ _SURFACES: dict[str, float] = {
 _TIRE_TYPE_FACTOR = 0.90
 _SPEED_FACTOR = 0.99
 _TOTAL_KG       = list(range(70, 130, 5))        # mirrors sweep.py grid
-_TIRE_WIDTHS_MM = [25, 28, 30, 32, 35, 38, 40, 42, 45, 50]  # city-bike range
+_TIRE_WIDTHS_MM = [30, 32, 35, 38, 40, 42, 45, 50]          # 30-50mm (thinnest owned: 32mm)
 
 
 def _compute_psi(total_kg: float, split: float, width_mm: int, sfactor: float) -> float:

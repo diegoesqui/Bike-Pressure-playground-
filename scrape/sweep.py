@@ -33,7 +33,7 @@ FIELDNAMES = [
 #   - surfaces: road/gravel only — track surfaces excluded (8 values)
 # 12 × 10 × 8 = 960 rows ≈ 20 min headless
 TOTAL_KG       = list(range(70, 130, 5))        # 70 75 … 125
-TIRE_WIDTHS_MM = [25, 28, 30, 32, 35, 38, 40, 42, 45, 50]
+TIRE_WIDTHS_MM = [30, 32, 35, 38, 40, 42, 45, 50]
 
 # Silca surface keys to include (excludes velodrome surfaces)
 SURFACE_KEYS = [
