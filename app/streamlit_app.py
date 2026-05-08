@@ -54,9 +54,7 @@ _SURFACES: dict[str, float] = {
 }
 _TIRE_TYPE_FACTOR = 0.90
 _SPEED_FACTOR = 0.99
-_RIDER_KG = list(range(60, 95, 5))
-_BIKE_KG = [10, 15, 20, 25]
-_LUGGAGE_KG = [0, 2, 4, 6, 8, 10]
+_TOTAL_KG      = list(range(70, 130, 5))        # mirrors sweep.py grid
 _TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
 
 
@@ -70,22 +68,24 @@ def _generate_synthetic_csv(path: pathlib.Path) -> None:
     fieldnames = [
         "rider_kg", "bike_kg", "luggage_kg", "total_kg",
         "tire_width_mm", "surface", "wheel", "bike_type", "tire_type", "speed_kmh",
-        "front_psi", "rear_psi", "data_source",
+        "front_psi", "rear_psi", "front_bar", "rear_bar", "data_source",
     ]
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
-        for rider, bike, luggage, width, (surf, sfac) in itertools.product(
-            _RIDER_KG, _BIKE_KG, _LUGGAGE_KG, _TIRE_WIDTHS_MM, _SURFACES.items()
+        for total, width, (surf, sfac) in itertools.product(
+            _TOTAL_KG, _TIRE_WIDTHS_MM, _SURFACES.items()
         ):
-            total = rider + bike + luggage
+            fp = _compute_psi(total, _FRONT_SPLIT, width, sfac)
+            rp = _compute_psi(total, _REAR_SPLIT, width, sfac)
             w.writerow({
-                "rider_kg": rider, "bike_kg": bike, "luggage_kg": luggage,
+                "rider_kg": total, "bike_kg": 0, "luggage_kg": 0,
                 "total_kg": total, "tire_width_mm": width, "surface": surf,
                 "wheel": "700c", "bike_type": "Road", "tire_type": "Tubeless",
                 "speed_kmh": 30.0,
-                "front_psi": _compute_psi(total, _FRONT_SPLIT, width, sfac),
-                "rear_psi": _compute_psi(total, _REAR_SPLIT, width, sfac),
+                "front_psi": fp, "rear_psi": rp,
+                "front_bar": round(fp * PSI_TO_BAR, 2),
+                "rear_bar":  round(rp * PSI_TO_BAR, 2),
                 "data_source": "synthetic",
             })
 
@@ -100,7 +100,14 @@ def load_data(path: pathlib.Path) -> pd.DataFrame:
         _generate_synthetic_csv(path)
     df = pd.read_csv(path)
     df = df.dropna(subset=["front_psi", "rear_psi"])
-    df["total_kg"] = df["rider_kg"] + df["bike_kg"] + df["luggage_kg"]
+    # Ensure total_kg exists (handle both old rider/bike/luggage format and new direct format)
+    if "total_kg" not in df.columns:
+        df["total_kg"] = df["rider_kg"] + df["bike_kg"] + df["luggage_kg"]
+    elif df["total_kg"].isna().any():
+        mask = df["total_kg"].isna()
+        df.loc[mask, "total_kg"] = (
+            df.loc[mask, "rider_kg"] + df.loc[mask, "bike_kg"] + df.loc[mask, "luggage_kg"]
+        )
     # Use real bar values from Silca when present; fall back to PSI conversion
     if "front_bar" not in df.columns or df["front_bar"].isna().all():
         df["front_bar"] = (df["front_psi"] * PSI_TO_BAR).round(2)

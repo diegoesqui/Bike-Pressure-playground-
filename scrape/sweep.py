@@ -27,10 +27,10 @@ FIELDNAMES = [
     "front_psi", "rear_psi", "front_bar", "rear_bar", "data_source",
 ]
 
-# Grid definition
-RIDER_KG    = list(range(60, 95, 5))           # 60 65 70 75 80 85 90
-BIKE_KG     = [10, 15, 20, 25]
-LUGGAGE_KG  = [0, 2, 4, 6, 8, 10]
+# Grid definition — Silca only takes total_kg, so collapse rider/bike/luggage
+# into a single axis.  Range covers light recreational (70 kg) → loaded e-bike
+# (125 kg) in 5 kg steps.  12 weights × 12 widths × 10 surfaces = 1 440 rows.
+TOTAL_KG       = list(range(70, 130, 5))        # 70 75 … 125
 TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
 
 # Diameter key → wheel label
@@ -46,9 +46,7 @@ THROTTLE_S = 0.25
 
 def row_key(row: dict) -> tuple:
     return (
-        float(row["rider_kg"]),
-        float(row["bike_kg"]),
-        float(row["luggage_kg"]),
+        float(row["total_kg"]),
         int(row["tire_width_mm"]),
         row["surface"],
         row["wheel"],
@@ -99,16 +97,15 @@ def main() -> None:
     surface_keys = list(SILCA_SURFACES.keys())
     print(f"Surfaces: {surface_keys}")
 
-    grid = list(itertools.product(RIDER_KG, BIKE_KG, LUGGAGE_KG, TIRE_WIDTHS_MM, surface_keys))
+    grid = list(itertools.product(TOTAL_KG, TIRE_WIDTHS_MM, surface_keys))
     total_grid = len(grid)
     print(f"Total grid size: {total_grid}  |  To do: {total_grid - len(done)}")
 
     with SilcaCalculator(headless=args.headless) as calc:
-        for idx, (rider, bike, luggage, width, surface_key) in enumerate(grid, 1):
-            total = rider + bike + luggage
+        for idx, (total, width, surface_key) in enumerate(grid, 1):
             surface_label = SILCA_SURFACES[surface_key]
 
-            key = (float(rider), float(bike), float(luggage), int(width), surface_label,
+            key = (float(total), int(width), surface_label,
                    wheel_label, args.tire_type, float(args.speed))
             if key in done:
                 continue
@@ -124,26 +121,26 @@ def main() -> None:
                     dist_key=args.dist,
                 )
                 row = {
-                    "rider_kg": rider,
-                    "bike_kg": bike,
-                    "luggage_kg": luggage,
-                    "total_kg": total,
+                    "rider_kg":    total,   # store total in rider_kg for compat
+                    "bike_kg":     0,
+                    "luggage_kg":  0,
+                    "total_kg":    total,
                     "tire_width_mm": width,
-                    "surface": surface_label,
-                    "wheel": wheel_label,
-                    "bike_type": "Road",
-                    "tire_type": args.tire_type,
-                    "speed_kmh": args.speed,
-                    "front_psi": result.get("front_psi"),
-                    "rear_psi":  result.get("rear_psi"),
-                    "front_bar": result.get("front_bar"),
-                    "rear_bar":  result.get("rear_bar"),
+                    "surface":     surface_label,
+                    "wheel":       wheel_label,
+                    "bike_type":   "Road",
+                    "tire_type":   args.tire_type,
+                    "speed_kmh":   args.speed,
+                    "front_psi":   result.get("front_psi"),
+                    "rear_psi":    result.get("rear_psi"),
+                    "front_bar":   result.get("front_bar"),
+                    "rear_bar":    result.get("rear_bar"),
                     "data_source": "silca",
                 }
             except Exception as e:
                 print(f"  [WARN] row {idx}/{total_grid} failed: {e}", file=sys.stderr)
                 row = {
-                    "rider_kg": rider, "bike_kg": bike, "luggage_kg": luggage,
+                    "rider_kg": total, "bike_kg": 0, "luggage_kg": 0,
                     "total_kg": total, "tire_width_mm": width,
                     "surface": surface_label, "wheel": wheel_label,
                     "bike_type": "Road", "tire_type": args.tire_type,
@@ -160,9 +157,9 @@ def main() -> None:
             if idx % 50 == 0 or idx == total_grid:
                 pct = 100 * idx / total_grid
                 print(f"  {idx}/{total_grid} ({pct:.1f}%)  "
-                      f"rider={rider} bike={bike} luggage={luggage} "
-                      f"width={width} surface={surface_label!r} "
-                      f"→ front={row['front_psi']} rear={row['rear_psi']}")
+                      f"total={total} kg width={width} mm surface={surface_label!r} "
+                      f"→ front={row['front_psi']} psi / {row['front_bar']} bar  "
+                      f"rear={row['rear_psi']} psi / {row['rear_bar']} bar")
 
             time.sleep(THROTTLE_S)
 

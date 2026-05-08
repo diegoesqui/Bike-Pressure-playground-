@@ -15,16 +15,17 @@ from __future__ import annotations
 
 import csv
 import itertools
-import math
 import pathlib
 
 DATA_DIR = pathlib.Path(__file__).parent.parent / "data"
 CSV_PATH = DATA_DIR / "silca_sweep.csv"
 
+PSI_TO_BAR = 0.0689476
+
 # Calibration constant (empirically matched to published Silca outputs)
 C = 49.0
 
-# Axle load distribution for a road/city bike with rear rack load
+# Axle load distribution for a road/city bike
 FRONT_SPLIT = 0.42
 REAR_SPLIT = 0.58
 
@@ -42,16 +43,11 @@ SURFACES: dict[str, float] = {
     "Grava cat. 4 (gruesa)":            0.50,
 }
 
-# Tire type multiplier (default sweep uses tubeless)
-TIRE_TYPE_FACTOR = 0.90  # tubeless needs ~10% less pressure vs tubed clincher
-
-# Speed at 30 km/h → negligible adjustment (coefficient ≈ 0.99)
+TIRE_TYPE_FACTOR = 0.90
 SPEED_FACTOR = 0.99
 
-# Grid parameters (matching sweep.py)
-RIDER_KG = list(range(60, 95, 5))       # 60..90
-BIKE_KG = [10, 15, 20, 25]
-LUGGAGE_KG = [0, 2, 4, 6, 8, 10]
+# Grid mirrors sweep.py — total_kg only (Silca takes total weight, not breakdown)
+TOTAL_KG       = list(range(70, 130, 5))        # 70 75 … 125 (12 values)
 TIRE_WIDTHS_MM = [23, 25, 28, 30, 32, 35, 38, 40, 42, 45, 47, 50]
 
 WHEEL = "700c"
@@ -61,10 +57,7 @@ SPEED_KMH = 30.0
 
 
 def compute_psi(total_kg: float, axle_split: float, width_mm: int, surface_factor: float) -> float:
-    """Compute optimal tire pressure in PSI."""
-    axle_kg = total_kg * axle_split
-    raw = C * axle_kg / width_mm * surface_factor * TIRE_TYPE_FACTOR * SPEED_FACTOR
-    # Clamp to realistic range (23mm road tires max ~130 psi; wide gravel no less than ~12 psi)
+    raw = C * total_kg * axle_split / width_mm * surface_factor * TIRE_TYPE_FACTOR * SPEED_FACTOR
     return round(max(12.0, min(130.0, raw)), 1)
 
 
@@ -74,7 +67,7 @@ def main() -> None:
         "rider_kg", "bike_kg", "luggage_kg", "total_kg",
         "tire_width_mm", "surface",
         "wheel", "bike_type", "tire_type", "speed_kmh",
-        "front_psi", "rear_psi",
+        "front_psi", "rear_psi", "front_bar", "rear_bar",
         "data_source",
     ]
 
@@ -83,25 +76,26 @@ def main() -> None:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
 
-        for rider, bike, luggage, width, (surface, sfactor) in itertools.product(
-            RIDER_KG, BIKE_KG, LUGGAGE_KG, TIRE_WIDTHS_MM, SURFACES.items()
+        for total, width, (surface, sfactor) in itertools.product(
+            TOTAL_KG, TIRE_WIDTHS_MM, SURFACES.items()
         ):
-            total = rider + bike + luggage
             front = compute_psi(total, FRONT_SPLIT, width, sfactor)
-            rear = compute_psi(total, REAR_SPLIT, width, sfactor)
+            rear  = compute_psi(total, REAR_SPLIT,  width, sfactor)
             writer.writerow({
-                "rider_kg": rider,
-                "bike_kg": bike,
-                "luggage_kg": luggage,
-                "total_kg": total,
+                "rider_kg":    total,
+                "bike_kg":     0,
+                "luggage_kg":  0,
+                "total_kg":    total,
                 "tire_width_mm": width,
-                "surface": surface,
-                "wheel": WHEEL,
-                "bike_type": BIKE_TYPE,
-                "tire_type": TIRE_TYPE,
-                "speed_kmh": SPEED_KMH,
-                "front_psi": front,
-                "rear_psi": rear,
+                "surface":     surface,
+                "wheel":       WHEEL,
+                "bike_type":   BIKE_TYPE,
+                "tire_type":   TIRE_TYPE,
+                "speed_kmh":   SPEED_KMH,
+                "front_psi":   front,
+                "rear_psi":    rear,
+                "front_bar":   round(front * PSI_TO_BAR, 2),
+                "rear_bar":    round(rear  * PSI_TO_BAR, 2),
                 "data_source": "synthetic",
             })
             rows += 1
