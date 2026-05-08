@@ -24,7 +24,7 @@ FIELDNAMES = [
     "rider_kg", "bike_kg", "luggage_kg", "total_kg",
     "tire_width_mm", "surface",
     "wheel", "bike_type", "tire_type", "speed_kmh",
-    "front_psi", "rear_psi", "data_source",
+    "front_psi", "rear_psi", "front_bar", "rear_bar", "data_source",
 ]
 
 # Grid definition
@@ -135,7 +135,9 @@ def main() -> None:
                     "tire_type": args.tire_type,
                     "speed_kmh": args.speed,
                     "front_psi": result.get("front_psi"),
-                    "rear_psi": result.get("rear_psi"),
+                    "rear_psi":  result.get("rear_psi"),
+                    "front_bar": result.get("front_bar"),
+                    "rear_bar":  result.get("rear_bar"),
                     "data_source": "silca",
                 }
             except Exception as e:
@@ -147,6 +149,7 @@ def main() -> None:
                     "bike_type": "Road", "tire_type": args.tire_type,
                     "speed_kmh": args.speed,
                     "front_psi": None, "rear_psi": None,
+                    "front_bar": None, "rear_bar": None,
                     "data_source": "silca",
                 }
 

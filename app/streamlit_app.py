@@ -101,8 +101,11 @@ def load_data(path: pathlib.Path) -> pd.DataFrame:
     df = pd.read_csv(path)
     df = df.dropna(subset=["front_psi", "rear_psi"])
     df["total_kg"] = df["rider_kg"] + df["bike_kg"] + df["luggage_kg"]
-    df["front_bar"] = (df["front_psi"] * PSI_TO_BAR).round(2)
-    df["rear_bar"] = (df["rear_psi"] * PSI_TO_BAR).round(2)
+    # Use real bar values from Silca when present; fall back to PSI conversion
+    if "front_bar" not in df.columns or df["front_bar"].isna().all():
+        df["front_bar"] = (df["front_psi"] * PSI_TO_BAR).round(2)
+    if "rear_bar" not in df.columns or df["rear_bar"].isna().all():
+        df["rear_bar"] = (df["rear_psi"] * PSI_TO_BAR).round(2)
     return df
 
 
